@@ -109,7 +109,6 @@ gulp.task('merge-catalog', ['merge-groups'], function() {
         // be absolutely sure we have the files in alphabetical order, with 000_settings first.
         var keys = Object.keys(data).slice().sort();
         data[keys[0]].catalog = [];
-            console.log(Object.keys(data));
 
         for (var i = 1; i < keys.length; i++) {
             data[keys[0]].catalog.push(data[keys[i]].catalog[0]);
