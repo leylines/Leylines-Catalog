@@ -49,13 +49,15 @@ gulp.task('make-editor-schema', ['copy-editor'], function(done) {
 gulp.task('release', ['merge-datasources', 'make-editor-schema', 'validate']);
 
 // Generate new schema for validator, and copy it over whatever version came with validator.
-/*gulp.task('make-validator-schema', function(done) {
-    generateSchema({
+gulp.task('make-validator-schema', function(done) {
+    // Skip generation for now.
+    done();
+    /*generateSchema({
         source: 'node_modules/terriajs',
         dest: 'node_modules/terriajs-schema/schema',
         quiet: true
-    }).then(done);
-});*/
+    }).then(done);*/
+});
 
 gulp.task('validate', ['merge-datasources', 'make-validator-schema'], function() {
     return validateSchema({
