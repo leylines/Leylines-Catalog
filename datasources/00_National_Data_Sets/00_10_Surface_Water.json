@@ -538,7 +538,7 @@
               "items": [
                 {
                   "layers": "WaterObservations",
-                  "url": "http://eos.ga.gov.au/geoserver/NFRIP-WOfS/wms",
+                  "url": "http://geoserver.nci.org.au/geoserver/NFRIP-WOfS/wms",
                   "type": "wms",
                   "rectangle": [
                     111,
@@ -559,7 +559,7 @@
                 },
                 {
                   "layers": "ClearObservations",
-                  "url": "http://eos.ga.gov.au/geoserver/NFRIP-WOfS/wms",
+                  "url": "http://geoserver.nci.org.au/geoserver/NFRIP-WOfS/wms",
                   "type": "wms",
                   "rectangle": [
                     111,
@@ -580,7 +580,7 @@
                 },
                 {
                   "layers": "WaterSummary",
-                  "url": "http://eos.ga.gov.au/geoserver/NFRIP-WOfS/wms",
+                  "url": "http://geoserver.nci.org.au/geoserver/NFRIP-WOfS/wms",
                   "type": "wms",
                   "rectangle": [
                     111,
@@ -601,7 +601,7 @@
                 },
                 {
                   "layers": "Confidence",
-                  "url": "http://eos.ga.gov.au/geoserver/NFRIP-WOfS/wms",
+                  "url": "http://geoserver.nci.org.au/geoserver/NFRIP-WOfS/wms",
                   "type": "wms",
                   "rectangle": [
                     112,
@@ -622,7 +622,7 @@
                 },
                 {
                   "layers": "WaterSummaryFiltered",
-                  "url": "http://eos.ga.gov.au/geoserver/NFRIP-WOfS/wms",
+                  "url": "http://geoserver.nci.org.au/geoserver/NFRIP-WOfS/wms",
                   "type": "wms",
                   "rectangle": [
                     111,
