@@ -12,7 +12,7 @@
               "datasetId": "catchment-scale-land-use-of-australia-update-march-2015"
             },
             {
-              "url": "http://www.ga.gov.au/gisimg/rest/services/earth_science/Geoscience_Australia_National_Geophysical_Grids/MapServer",
+              "url": "http://services.ga.gov.au/gis/rest/services/Geophysical_Grids/MapServer/9",
               "type": "esri-mapServer",
               "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
               "name": "Gravity Anomaly",
@@ -45,12 +45,11 @@
               ]
             },
             {
-              "url": "http://www.ga.gov.au/gisimg/rest/services/earth_science/Geoscience_Australia_National_Geophysical_Grids/MapServer",
+              "url": "http://services.ga.gov.au/gis/rest/services/Geophysical_Grids/MapServer/4",
               "type": "esri-mapServer",
               "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
               "name": "Magnetic Intensity",
               "layers": "TotalMagneticIntensity2015_HSI",
-              "legendUrl": "http://www.ga.gov.au/gisimg/server/capabilities/TotalMagneticIntensity_HSI_legend.jpg",
               "info": [
                 {
                   "name": "Licence",
