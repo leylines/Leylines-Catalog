@@ -2,6 +2,10 @@
 Change Log
 ==========
 
+### 1.2.0
+
+* Include layers from ACT's Mapi service.
+
 ### 1.1.0
 * Update WA CKAN query to point to "_Public_Services"
 

@@ -3,7 +3,220 @@
     {
       "type": "group",
       "name": "ACT Government",
-      "items": [],
+      "items": [
+        {
+            "type": "esri-mapServer-group",
+            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi",
+            "name": "All ACT Mapi layers"
+        },
+        {
+            "type": "esri-mapServer-group",
+            "name": "Environmental offsets",
+            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/environmental_offsets/MapServer"
+        },
+        {
+            "type": "esri-mapServer-group",
+            "name": "Canberra tracks",
+            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/canberra_tracks/MapServer"
+        },
+        {
+            "type": "esri-mapServer-group",
+            "name": "Overview",
+            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/actmapi_overview/MapServer"
+        },
+        {
+            "type": "esri-mapServer-group",
+            "name": "Divisions",
+            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/art_ds_divisions/MapServer"
+        },
+        {
+            "type": "esri-mapServer-group",
+            "name": "Divisions – labels",
+            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/art_ds_labels/MapServer"
+        },
+        {
+            "type": "esri-mapServer-group",
+            "name": "Basic map style with cadastral data",
+            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/basic/MapServer"
+        },
+        {
+            "type": "esri-mapServer-group",
+            "name": "Cadastral base",
+            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/cadastral_investigation_plans_layer/MapServer"
+        },
+        {
+            "type": "esri-mapServer-group",
+            "name": "Canopy gap",
+            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/canopygap/MapServer"
+        },
+        {
+            "type": "esri-mapServer-group",
+            "name": "Cat containment areas",
+            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/cat_containment_areas/MapServer"
+        },
+        {
+            "type": "esri-mapServer-group",
+            "name": "Colonisation potential - forest model",
+            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/colonisation_potential_forest_model/MapServer"
+        },
+        {
+            "type": "esri-mapServer-group",
+            "name": "Colonisation potential - generalist",
+            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/colonisation_potential_generalist/MapServer"
+        },
+        {
+            "type": "esri-mapServer-group",
+            "name": "Colonisation potential - woodland model",
+            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/colonisation_potential_woodland_model/MapServer"
+        },
+        {
+            "type": "esri-mapServer-group",
+            "name": "Community interests labels",
+            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/comfis_labels/MapServer"
+        },
+        {
+            "type": "esri-mapServer-group",
+            "name": "Community interests",
+            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/comfis/MapServer"
+        },
+        {
+            "type": "esri-mapServer-group",
+            "name": "Development applications",
+            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/da/MapServer"
+        },
+        {
+            "type": "esri-mapServer-group",
+            "name": "100 year flood line",
+            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/esa_flood_100yr/MapServer"
+        },
+        {
+            "type": "group",
+            "name": "Strategic Bushfire Management Plan",
+            "items": [
+            {
+                "type": "esri-mapServer-group",
+                "name": "Bushfire Abatement Zone 2014",
+                "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/esa_sbmp_2014_BAZ2014/MapServer/0"
+            },
+            {
+                "type": "esri-mapServer-group",
+                "name": "BOP",
+                "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/esa_sbmp_2014_BOP/MapServer"
+            },
+            {
+                "type": "esri-mapServer-group",
+                "name": "Bushfire Prone Areas ACT",
+                "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/esa_sbmp_2014_BOP/MapServer"
+            },
+            {
+                "type": "esri-mapServer-group",
+                "name": "Fire Management Zone",
+                "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/esa_sbmp_2014_FMZ/MapServer"
+            },
+            {
+                "type": "esri-mapServer-group",
+                "name": "RFMP Treatement",
+                "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/esa_sbmp_2014_RFMP/MapServer"
+            }
+            ]
+        },
+        {
+            "type": "esri-mapServer-group",
+            "name": "Habitat patches",
+            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/habitat_patches/MapServer"
+        },
+        {
+            "type": "esri-mapServer-group",
+            "name": "Heritage",
+            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/heritage_mga/MapServer"
+        },
+        {
+            "type": "esri-mapServer-group",
+            "name": "Land custodianship",
+            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/landcustodianship_layers/MapServer"
+        },
+        {
+            "type": "esri-mapServer-group",
+            "name": "Licences",
+            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/licences_layer/MapServer"
+        },
+        {
+            "type": "esri-mapServer-group",
+            "name": "Canopy connection - local links",
+            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/local_links_canopy_connection/MapServer"
+        },
+        {
+            "type": "esri-mapServer-group",
+            "name": "Lease Variation Charge",
+            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/lvc_layer/MapServer"
+        },
+        {
+            "type": "esri-mapServer-group",
+            "name": "National Capital Plan",
+            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/national_capital_plan/MapServer"
+        },
+        {
+            "type": "esri-mapServer-group",
+            "name": "NSW regional data",
+            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/nsw_data/MapServer"
+        },
+        {
+            "type": "esri-mapServer-group",
+            "name": "Postcodes",
+            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/postcodes/MapServer"
+        },
+        {
+            "type": "esri-mapServer-group",
+            "name": "Preferred planting location",
+            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/preferred_planting_location/MapServer"
+        },
+        {
+            "type": "esri-mapServer-group",
+            "name": "Regional linkage value",
+            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/regional_linkage_value/MapServer"
+        },
+        {
+            "type": "esri-mapServer-group",
+            "name": "Road labels",
+            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/road_labels/MapServer"
+        },
+        {
+            "type": "esri-mapServer-group",
+            "name": "Survey control marks",
+            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/scm_layer/MapServer"
+        },
+        {
+            "type": "esri-mapServer-group",
+            "name": "Significant plants and animals",
+            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/significant_plants_and_animals/MapServer"
+        },
+        {
+            "type": "esri-mapServer-group",
+            "name": "Strategic assessment areas",
+            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/strategic_assessment_areas/MapServer"
+        },
+        {
+            "type": "esri-mapServer-group",
+            "name": "Territory Plan",
+            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/tp_layers/MapServer"
+        },
+        {
+            "type": "esri-mapServer-group",
+            "name": "Tree register",
+            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/tree_register/MapServer"
+        },
+        {
+            "type": "esri-mapServer-group",
+            "name": "Vegetation mapping",
+            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/vegetation_mapping/MapServer"
+        },
+        {
+            "type": "esri-mapServer-group",
+            "name": "Windscape mean annual speed",
+            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/windlab/MapServer"
+        }
+
+      ],
       "initialMessage": { 
         "title": "Data unavailable",
         "content": "ACT Government data is currently unavailable due to changes made by <a href=\"http://data.act.gov.au\">data.act.gov.au</a> in January 2016.",
