@@ -2,6 +2,9 @@
 Change Log
 ==========
 
+### 1.1.0
+* Update WA CKAN query to point to "_Public_Services"
+
 ### 1.0.0
 
 * Fix Gravity Anomaly and Magnetic Intensity layers.
