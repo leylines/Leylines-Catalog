@@ -7,12 +7,25 @@
         {
             "type": "esri-mapServer-group",
             "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi",
-            "name": "All ACT Mapi layers"
+            "name": "All ACT Mapi layers",
+            "itemProperties": {
+            "info": {
+                "custodian": "spatialdata@act.gov.au"
+            }
+        }
         },
         {
             "type": "esri-mapServer-group",
             "name": "Environmental offsets",
-            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/environmental_offsets/MapServer"
+            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/environmental_offsets/MapServer",
+            "itemProperties": {
+                "info": [
+                    { "name": "custodian",
+                      "content": "spatialdata@act.gov.au"
+                    }
+                ]
+                
+            }
         },
         {
             "type": "esri-mapServer-group",
@@ -216,7 +229,12 @@
             "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/windlab/MapServer"
         }
 
-      ]
+      ],
+      "initialMessage": { 
+        "title": "Data unavailable",
+        "content": "ACT Government data is currently unavailable due to changes made by <a href=\"http://data.act.gov.au\">data.act.gov.au</a> in January 2016.",
+        "key": "act-data-unavailable"
+      }
     }      
   ]
 }
