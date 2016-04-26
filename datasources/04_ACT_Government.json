@@ -20,8 +20,8 @@
             "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/environmental_offsets/MapServer",
             "itemProperties": {
                 "info": [
-                    { "name": "custodian",
-                      "content": "spatialdata@act.gov.au"
+                    { "name": "Data contact",
+                      "content": "ACT Government<br/>spatialdata@act.gov.au"
                     }
                 ]
                 
