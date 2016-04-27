@@ -3,7 +3,6 @@
 /*global require*/
 
 var fs = require('fs');
-var glob = require('glob-all');
 var gulp = require('gulp');
 var gutil = require('gulp-util');
 var jsoncombine = require('gulp-jsoncombine');
