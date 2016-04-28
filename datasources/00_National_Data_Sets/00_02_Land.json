@@ -5,6 +5,12 @@
         {
           "items": [
             {
+              "url": "http://www.ga.gov.au/gisimg/rest/services/topography/NATMAP_Digital_Maps_250K_2008Edition_WM/MapServer",
+              "type": "esri-mapServer",
+              "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+              "name": "Australia 250K Topographic Map 2008"
+            },
+            {
               "name": "Catchment Scale Land Use 2015",
               "type": "ckan-resource",
               "url": "https://data.gov.au",
@@ -56,12 +62,6 @@
                   "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
                 }
               ]
-            },
-            {
-              "url": "http://www.ga.gov.au/gisimg/rest/services/topography/NATMAP_Digital_Maps_250K_2008Edition_WM/MapServer",
-              "type": "esri-mapServer",
-              "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
-              "name": "Australia 250K Topographic Map 2008"
             },
             {
               "url": "http://www.ga.gov.au/gis/rest/services/earth_science/GA_Surface_Geology_of_Australia_WM/MapServer",
