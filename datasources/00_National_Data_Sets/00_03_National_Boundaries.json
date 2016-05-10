@@ -72,7 +72,7 @@
             },
             {
               "layers": "admin_bnds:COM20111216_ELB_2016",
-              "url": "http://temp-geoserver.nationalmap.nicta.com.au/admin_bnds_abs/ows",
+              "url": "http://geoserver.nationalmap.nicta.com.au/admin_bnds_abs/ows",
               "type": "wms",
               "rectangle": [
                 96.81694,
