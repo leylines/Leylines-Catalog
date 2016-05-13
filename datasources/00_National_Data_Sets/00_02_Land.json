@@ -103,6 +103,14 @@
                 }
               ]
             },
+            {
+              "url": "http://www.ga.gov.au/gis/services/earth_science/Scanned_250K_Geological_Map_Index/MapServer/WMSServer",
+              "layers": "Scanned_250K_Geological_Map_Index",
+              "type": "wms",
+              "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+              "name": "Scanned 1:250K Geological Maps",
+              "opacity": 1
+            },
                         {
                             "name": "National Soil Attributes",
                             "type": "group",
