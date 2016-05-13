@@ -5,6 +5,8 @@ Change Log
 ### 2016-05-13
 
 * Added `Scanned 1:250K Geological Maps` to `National Data Sets` -> `Land`.
+* Added `Commonwealth Electoral Divisions (2016)` to `National Boundaries`.
+* Renamed `Commonwealth Electoral Divisions` to `Commonwealth Electoral Divisions (2011)`.
 
 ### 2016-04-15-updated-2016-04-28
 
