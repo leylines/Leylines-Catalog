@@ -6,8 +6,11 @@
           "items": [
             {
               "layers": "admin_bnds:SA4_2011_AUST",
-              "url": "http://geoserver.nationalmap.nicta.com.au/admin_bnds_abs/ows",
+              "url": "http://regionmap-dev.nationalmap.nicta.com.au/admin_bnds_abs/ows",
               "type": "wms",
+              "parameters": {
+                "styles": "border_green"
+              },
               "rectangle": [
                 96.81694,
                 -43.74050,
@@ -28,8 +31,11 @@
             },
             {
               "layers": "admin_bnds:SA3_2011_AUST",
-              "url": "http://geoserver.nationalmap.nicta.com.au/admin_bnds_abs/ows",
+              "url": "http://regionmap-dev.nationalmap.nicta.com.au/admin_bnds_abs/ows",
               "type": "wms",
+              "parameters": {
+                "styles": "border_yellow"
+              },
               "rectangle": [
                 96.81694,
                 -43.74050,
@@ -50,8 +56,11 @@
             },
             {
               "layers": "admin_bnds:SA2_2011_AUST",
-              "url": "http://geoserver.nationalmap.nicta.com.au/admin_bnds_abs/ows",
+              "url": "http://regionmap-dev.nationalmap.nicta.com.au/admin_bnds_abs/ows",
               "type": "wms",
+              "parameters": {
+                "styles": "border_orange"
+              },
               "rectangle": [
                 96.81694,
                 -43.74050,
@@ -72,7 +81,10 @@
             },
             {
               "layers": "admin_bnds:SA1_2011_AUST",
-              "url": "http://geoserver.nationalmap.nicta.com.au/admin_bnds_abs/ows",
+              "url": "http://regionmap-dev.nationalmap.nicta.com.au/admin_bnds_abs/ows",
+              "parameters": {
+                "styles": "border_red"
+              },
               "type": "wms",
               "rectangle": [
                 96.81694,
@@ -94,8 +106,11 @@
             },
             {
               "layers": "admin_bnds:GCCSA_2011_AUST",
-              "url": "http://geoserver.nationalmap.nicta.com.au/admin_bnds_abs/ows",
+              "url": "http://regionmap-dev.nationalmap.nicta.com.au/admin_bnds_abs/ows",
               "type": "wms",
+              "parameters": {
+                "styles": "border_blue"
+              },
               "rectangle": [
                 96.81694,
                 -43.74050,
