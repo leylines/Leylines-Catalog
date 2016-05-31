@@ -26,8 +26,16 @@ if (!fs.existsSync(workDir)) {
     fs.mkdirSync(workDir);
 }
 
-gulp.task('build', ['merge-datasources']);
+gulp.task('build', ['merge-datasources', 'list-ga-services']);
 
+gulp.task('list-ga-services', function(done) {
+    var exec = require('child_process').exec;
+    exec('./list_services.sh', function (err, stdout, stderr) {
+        if (stderr)
+            console.log(stderr);
+        done(err);
+    });
+});
 
 // Generate new schema for editor, and copy it over whatever version came with editor.
 gulp.task('make-editor-schema', ['copy-editor'], function(done) {
