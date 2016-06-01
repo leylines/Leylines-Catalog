@@ -6,7 +6,7 @@
           "items": [
             {
               "layers": "admin_bnds:SA4_2011_AUST",
-              "url": "http://regionmap-dev.nationalmap.nicta.com.au/admin_bnds_abs/ows",
+              "url": "http://geoserver.nationalmap.nicta.com.au/admin_bnds_abs/ows",
               "type": "wms",
               "parameters": {
                 "styles": "border_green"
@@ -29,13 +29,13 @@
                 }
               ],
               "legendUrl": {
-                "url": "http://regionmap-dev.nationalmap.nicta.com.au/admin_bnds_abs/ows?service=WMS&request=GetLegendGraphic&style=border_green&width=20&height=20&layer=SA4_2011_AUST&version=1.1.0&transparent=True&LEGEND_OPTIONS=fontSize%3A14%3BforceLabels%3Aon%3BfontAntiAliasing%3Atrue&format=image%2Fpng",
+                "url": "http://geoserver.nationalmap.nicta.com.au/admin_bnds_abs/ows?service=WMS&request=GetLegendGraphic&style=border_green&width=20&height=20&layer=SA4_2011_AUST&version=1.1.0&transparent=True&LEGEND_OPTIONS=fontSize%3A14%3BforceLabels%3Aon%3BfontAntiAliasing%3Atrue&format=image%2Fpng",
                 "mimeType": "image/png"
               }
             },
             {
               "layers": "admin_bnds:SA3_2011_AUST",
-              "url": "http://regionmap-dev.nationalmap.nicta.com.au/admin_bnds_abs/ows",
+              "url": "http://geoserver.nationalmap.nicta.com.au/admin_bnds_abs/ows",
               "type": "wms",
               "parameters": {
                 "styles": "border_yellow"
@@ -58,13 +58,13 @@
                 }
               ],
               "legendUrl": {
-                "url": "http://regionmap-dev.nationalmap.nicta.com.au/admin_bnds_abs/ows?service=WMS&request=GetLegendGraphic&style=border_yellow&width=20&height=20&layer=SA3_2011_AUST&version=1.1.0&transparent=True&LEGEND_OPTIONS=fontSize%3A14%3BforceLabels%3Aon%3BfontAntiAliasing%3Atrue&format=image%2Fpng",
+                "url": "http://geoserver.nationalmap.nicta.com.au/admin_bnds_abs/ows?service=WMS&request=GetLegendGraphic&style=border_yellow&width=20&height=20&layer=SA3_2011_AUST&version=1.1.0&transparent=True&LEGEND_OPTIONS=fontSize%3A14%3BforceLabels%3Aon%3BfontAntiAliasing%3Atrue&format=image%2Fpng",
                 "mimeType": "image/png"
               }
             },
             {
               "layers": "admin_bnds:SA2_2011_AUST",
-              "url": "http://regionmap-dev.nationalmap.nicta.com.au/admin_bnds_abs/ows",
+              "url": "http://geoserver.nationalmap.nicta.com.au/admin_bnds_abs/ows",
               "type": "wms",
               "parameters": {
                 "styles": "border_orange"
@@ -87,13 +87,13 @@
                 }
               ],
               "legendUrl": {
-                "url": "http://regionmap-dev.nationalmap.nicta.com.au/admin_bnds_abs/ows?service=WMS&request=GetLegendGraphic&style=border_orange&width=20&height=20&layer=SA2_2011_AUST&version=1.1.0&transparent=True&LEGEND_OPTIONS=fontSize%3A14%3BforceLabels%3Aon%3BfontAntiAliasing%3Atrue&format=image%2Fpng",
+                "url": "http://geoserver.nationalmap.nicta.com.au/admin_bnds_abs/ows?service=WMS&request=GetLegendGraphic&style=border_orange&width=20&height=20&layer=SA2_2011_AUST&version=1.1.0&transparent=True&LEGEND_OPTIONS=fontSize%3A14%3BforceLabels%3Aon%3BfontAntiAliasing%3Atrue&format=image%2Fpng",
                 "mimeType": "image/png"
               }
             },
             {
               "layers": "admin_bnds:SA1_2011_AUST",
-              "url": "http://regionmap-dev.nationalmap.nicta.com.au/admin_bnds_abs/ows",
+              "url": "http://geoserver.nationalmap.nicta.com.au/admin_bnds_abs/ows",
               "parameters": {
                 "styles": "border_red"
               },
@@ -116,13 +116,13 @@
                 }
               ],
               "legendUrl": {
-                "url": "http://regionmap-dev.nationalmap.nicta.com.au/admin_bnds_abs/ows?service=WMS&request=GetLegendGraphic&style=border_red&width=20&height=20&layer=SA1_2011_AUST&version=1.1.0&transparent=True&LEGEND_OPTIONS=fontSize%3A14%3BforceLabels%3Aon%3BfontAntiAliasing%3Atrue&format=image%2Fpng",
+                "url": "http://geoserver.nationalmap.nicta.com.au/admin_bnds_abs/ows?service=WMS&request=GetLegendGraphic&style=border_red&width=20&height=20&layer=SA1_2011_AUST&version=1.1.0&transparent=True&LEGEND_OPTIONS=fontSize%3A14%3BforceLabels%3Aon%3BfontAntiAliasing%3Atrue&format=image%2Fpng",
                 "mimeType": "image/png"
               }
             },
             {
               "layers": "admin_bnds:GCCSA_2011_AUST",
-              "url": "http://regionmap-dev.nationalmap.nicta.com.au/admin_bnds_abs/ows",
+              "url": "http://geoserver.nationalmap.nicta.com.au/admin_bnds_abs/ows",
               "type": "wms",
               "parameters": {
                 "styles": "border_blue"
@@ -145,7 +145,7 @@
                 }
               ],
               "legendUrl": {
-                "url": "http://regionmap-dev.nationalmap.nicta.com.au/admin_bnds_abs/ows?service=WMS&request=GetLegendGraphic&style=border_blue&width=20&height=20&layer=GCCSA_2011_AUST&version=1.1.0&transparent=True&LEGEND_OPTIONS=fontSize%3A14%3BforceLabels%3Aon%3BfontAntiAliasing%3Atrue&format=image%2Fpng",
+                "url": "http://geoserver.nationalmap.nicta.com.au/admin_bnds_abs/ows?service=WMS&request=GetLegendGraphic&style=border_blue&width=20&height=20&layer=GCCSA_2011_AUST&version=1.1.0&transparent=True&LEGEND_OPTIONS=fontSize%3A14%3BforceLabels%3Aon%3BfontAntiAliasing%3Atrue&format=image%2Fpng",
                 "mimeType": "image/png"
               }
             },
