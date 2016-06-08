@@ -7,8 +7,8 @@
             {
               "opacity": 1.0,
               "layers": "0",
-              "url": "http://services.thelist.tas.gov.au/arcgis/services/Basemaps/Topographic/ImageServer/WMSServer",
-              "type": "wms",
+              "url": "http://services.thelist.tas.gov.au/arcgis/rest/services/Basemaps/Topographic/MapServer",
+              "type": "esri-mapServer",
               "rectangle": [
                 141,
                 -44,
@@ -16,7 +16,6 @@
                 -39
               ],
               "dataCustodian": "[Tasmanian Government](http://www.tas.gov.au/)",
-              "description": "[Licence](http://creativecommons.org/licenses/by/2.5/au/)",
               "name": "Topographic"
             },
             {
@@ -30,15 +29,20 @@
                 152,
                 -39
               ],
-              "dataCustodian": "[Tasmanian Government](http://www.tas.gov.au/)",
-              "description": "[Licence](http://creativecommons.org/licenses/by/2.5/au/)",
+              "dataCustodian": "The List, [Tasmanian Government](http://www.tas.gov.au/)",
+              "info": [
+                {
+                  "name": "Licence",
+                  "content": "[Creative Commons Attribution Non-Commercial No derivatives Australia 3.0](https://creativecommons.org/licenses/by-nc-nd/3.0/au/)"
+                }
+              ],
               "name": "Topographic Grayscale"
             },
             {
               "opacity": 1.0,
               "layers": "0",
-              "url": "http://services.thelist.tas.gov.au/arcgis/services/Basemaps/Orthophoto/ImageServer/WMSServer",
-              "type": "wms",
+              "url": "http://services.thelist.tas.gov.au/arcgis/rest/services/Basemaps/Orthophoto/MapServer",
+              "type": "esri-mapServer",
               "rectangle": [
                 141,
                 -44,
@@ -46,8 +50,7 @@
                 -39
               ],
               "dataCustodian": "[Tasmanian Government](http://www.tas.gov.au/)",
-              "description": "[Licence](http://creativecommons.org/licenses/by/2.5/au/)",
-              "name": "Orthophoto"
+              "name": "Orthophoto" 
             },
             {
               "opacity": 1.0,
@@ -61,7 +64,12 @@
                 -39
               ],
               "dataCustodian": "[Tasmanian Government](http://www.tas.gov.au/)",
-              "description": "[Licence](http://creativecommons.org/licenses/by/2.5/au/)",
+              "info": [
+                {
+                  "name": "Licence",
+                  "content": "[Creative Commons Attribution Non-Commercial No derivatives Australia 3.0](https://creativecommons.org/licenses/by-nc-nd/3.0/au/)"
+                }
+              ],
               "name": "Tasmania Map 500k Resolution"
             },
             {
@@ -76,7 +84,12 @@
                 -39
               ],
               "dataCustodian": "[Tasmanian Government](http://www.tas.gov.au/)",
-              "description": "[Licence](http://creativecommons.org/licenses/by/2.5/au/)",
+              "info": [
+                {
+                  "name": "Licence",
+                  "content": "[Creative Commons Attribution Non-Commercial No derivatives Australia 3.0](https://creativecommons.org/licenses/by-nc-nd/3.0/au/)"
+                }
+              ],
               "name": "Tasmania Map 250k Resolution"
             },
             {
@@ -91,7 +104,12 @@
                 -39
               ],
               "dataCustodian": "[Tasmanian Government](http://www.tas.gov.au/)",
-              "description": "[Licence](http://creativecommons.org/licenses/by/2.5/au/)",
+              "info": [
+                {
+                  "name": "Licence",
+                  "content": "[Creative Commons Attribution Non-Commercial No derivatives Australia 3.0](https://creativecommons.org/licenses/by-nc-nd/3.0/au/)"
+                }
+              ],
               "name": "Tasmania Map 100k Resolution"
             },
             {
@@ -106,7 +124,12 @@
                 -39
               ],
               "dataCustodian": "[Tasmanian Government](http://www.tas.gov.au/)",
-              "description": "[Licence](http://creativecommons.org/licenses/by/2.5/au/)",
+              "info": [
+                {
+                  "name": "Licence",
+                  "content": "[Creative Commons Attribution Non-Commercial No derivatives Australia 3.0](https://creativecommons.org/licenses/by-nc-nd/3.0/au/)"
+                }
+              ],
               "name": "Tasmania Map 25k Resolution"
             }
           ],
