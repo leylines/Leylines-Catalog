@@ -6,7 +6,7 @@
       "items": [],
       "initialMessage": { 
         "title": "Data unavailable",
-        "content": "ACT Government data is currently unavailable due to changes made by <a href=\"http://data.act.gov.au\">data.act.gov.au</a> in January 2016.",
+        "content": "ACT Government data will be available after 1 July 2016.",
         "key": "act-data-unavailable"
       }
     }      
