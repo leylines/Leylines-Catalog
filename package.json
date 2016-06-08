@@ -4,7 +4,8 @@
   "description": "Catalog files for NationalMap.",
   "main": "index.js",
   "scripts": {
-    "test": "gulp validate"
+    "test": "gulp validate",
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
     "gulp": "^3.9.1",
     "gulp-jsoncombine": "^1.0.3",
     "gulp-util": "^3.0.7",
-    "terriajs-schema": "^0.4.3"
+    "terriajs-schema": "^0.4.3",
+    "jq-cli-wrapper": "^0.3.0"
   }
 }

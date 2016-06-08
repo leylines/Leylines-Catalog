@@ -1,0 +1,31 @@
+These Geoscience Australia services are currently being referenced in the catalog.
+Report generated at Wednesday 8 June  15:10:12 AEST 2016
+
+http://services.ga.gov.au/gis/rest/services/Defence_Restricted_Areas/MapServer/0
+http://services.ga.gov.au/gis/rest/services/Defence_Restricted_Areas/MapServer/1
+http://services.ga.gov.au/gis/rest/services/Defence_Restricted_Areas/MapServer/2
+http://services.ga.gov.au/gis/rest/services/Electricity_Infrastructure/MapServer/1
+http://services.ga.gov.au/gis/rest/services/Electricity_Infrastructure/MapServer/2
+http://services.ga.gov.au/gis/rest/services/Geophysical_Grids/MapServer/4
+http://services.ga.gov.au/gis/rest/services/Geophysical_Grids/MapServer/9
+http://services.ga.gov.au/gis/rest/services/NEXIS_Residential_Population_Density/MapServer
+http://services.ga.gov.au/gis/rest/services/NM_Cultivated_and_Native_Vegetation/MapServer
+http://services.ga.gov.au/gis/rest/services/NM_Culture_and_Infrastructure/MapServer
+http://services.ga.gov.au/gis/rest/services/NM_Hydrography_and_Marine_Lines/MapServer
+http://services.ga.gov.au/gis/rest/services/NM_Hydrography_and_Marine/MapServer
+http://services.ga.gov.au/gis/rest/services/NM_Hydrography_and_Marine_Points/MapServer
+http://services.ga.gov.au/gis/rest/services/NM_Hydrography_and_Marine_Polygons/MapServer
+http://services.ga.gov.au/gis/rest/services/NM_Labelling_and_Boundaries/MapServer
+http://services.ga.gov.au/gis/rest/services/NM_Relief_and_Physiography/MapServer
+http://services.ga.gov.au/gis/rest/services/NM_Reserves/MapServer
+http://services.ga.gov.au/gis/rest/services/NM_Transport_Infrastructure/MapServer
+http://services.ga.gov.au/gis/rest/services/Oil_Gas_Infrastructure/MapServer/0
+http://services.ga.gov.au/gis/rest/services/Oil_Gas_Infrastructure/MapServer/1
+http://services.ga.gov.au/gis/services/DEM_SRTM_1Second/MapServer/WMSServer
+http://www.ga.gov.au/gisimg/rest/services/topography/NATMAP_Digital_Maps_250K_2008Edition_WM/MapServer
+http://www.ga.gov.au/gis/rest/services/earth_observation/Landcover_WM/MapServer
+http://www.ga.gov.au/gis/rest/services/earth_science/GA_Surface_Geology_of_Australia_WM/MapServer
+http://www.ga.gov.au/gis/rest/services/hazards/EarthquakeHazard/MapServer
+http://www.ga.gov.au/gis/rest/services/topography/National_Waste_Management_Facilities/MapServer
+http://www.ga.gov.au/gis/services/earth_science/Scanned_250K_Geological_Map_Index/MapServer/WMSServer
+http://www.ga.gov.au/thredds/wms/national_grids/d8-9s.nc
