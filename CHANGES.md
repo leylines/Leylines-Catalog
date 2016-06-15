@@ -2,6 +2,10 @@
 Change Log
 ==========
 
+### 2016-06-15
+
+* Changed the message that is displayed the first time the ACT group is opened.  It now indicates that the data will be back after 1 July.
+
 ### 2016-05-13
 
 * Added `Scanned 1:250K Geological Maps` to `National Data Sets` -> `Land`.
