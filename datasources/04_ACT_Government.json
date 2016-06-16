@@ -1,14 +1,1011 @@
 {
-  "catalog": [
-    {
-      "type": "group",
-      "name": "ACT Government",
-      "items": [],
-      "initialMessage": { 
-        "title": "Data unavailable",
-        "content": "ACT Government data will be available after 1 July 2016.",
-        "key": "act-data-unavailable"
-      }
-    }      
-  ]
+    "catalog": [
+        {
+            "type": "group",
+            "name": "ACT Government",
+            "preserveOrder": true,
+            "items": [
+                {
+                    "type": "group",
+                    "name": "Administrative boundaries",
+                    "items": [
+                        {
+                            "type": "esri-mapServer",
+                            "name": "ACT Border",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/basic_for_imagery/MapServer/0",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence",
+                                    "info": [
+                                        {
+                                            "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                            "name": "Licence"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "ACT Districts",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/basic_for_imagery/MapServer/1",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence",
+                                    "info": [
+                                        {
+                                            "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                            "name": "Licence"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "ACT Divisions",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/basic_for_imagery/MapServer/2",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence",
+                                    "info": [
+                                        {
+                                            "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                            "name": "Licence"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "ACT Sections",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/basic_for_imagery/MapServer/13",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence",
+                                    "info": [
+                                        {
+                                            "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                            "name": "Licence"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "ACT Blocks",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/basic_for_imagery/MapServer/63",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence",
+                                    "info": [
+                                        {
+                                            "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                            "name": "Licence"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "ACT Units Class B",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/basic_for_imagery/MapServer/77",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence",
+                                    "info": [
+                                        {
+                                            "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                            "name": "Licence"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "ACT Postcodes",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/postcodes/MapServer",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence",
+                                    "info": [
+                                        {
+                                            "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                            "name": "Licence"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "Development Applications - completed (DAs)",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/da/MapServer",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence",
+                                    "info": [
+                                        {
+                                            "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                            "name": "Licence"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "Strategic Assessment Areas",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/strategic_assessment_areas/MapServer",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence",
+                                    "info": [
+                                        {
+                                            "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                            "name": "Licence"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "Community Facilities",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/comfis/MapServer",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence",
+                                    "info": [
+                                        {
+                                            "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                            "name": "Licence"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "Land Custodianship",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/landcustodianship_layers/MapServer",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence",
+                                    "info": [
+                                        {
+                                            "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                            "name": "Licence"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "Territory Plan",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/tp_layers/MapServer",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence",
+                                    "info": [
+                                        {
+                                            "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                            "name": "Licence"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "National Capital Plan",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/national_capital_plan/MapServer",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence",
+                                    "info": [
+                                        {
+                                            "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                            "name": "Licence"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "Towns",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/actmapi_overview/MapServer/2",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence",
+                                    "info": [
+                                        {
+                                            "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                            "name": "Licence"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "name": "Infrastructure & assets",
+                    "items": [
+                        {
+                            "type": "esri-mapServer",
+                            "name": "Road Centrelines",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/basic_for_imagery/MapServer/40",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence",
+                                    "info": [
+                                        {
+                                            "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                            "name": "Licence"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "ACT Road Reserves",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/basic_for_imagery/MapServer/30",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence",
+                                    "info": [
+                                        {
+                                            "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                            "name": "Licence"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "Tracks and Trails",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/canberra_tracks/MapServer",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence",
+                                    "info": [
+                                        {
+                                            "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                            "name": "Licence"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "Dog Exercise Areas",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/dog_exercise_areas_2014/MapServer",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence",
+                                    "info": [
+                                        {
+                                            "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                            "name": "Licence"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "ACT Easements",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/basic_for_imagery/MapServer/50",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence",
+                                    "info": [
+                                        {
+                                            "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                            "name": "Licence"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "ACT Road Labels",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/road_labels/MapServer",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence",
+                                    "info": [
+                                        {
+                                            "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                            "name": "Licence"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "Cat Containment Areas",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/cat_containment_areas/MapServer",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence",
+                                    "info": [
+                                        {
+                                            "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                            "name": "Licence"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "name": "Water",
+                    "items": [
+                        {
+                            "type": "esri-mapServer",
+                            "name": "Water Features",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/basic_for_imagery/MapServer/58",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence",
+                                    "info": [
+                                        {
+                                            "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                            "name": "Licence"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "ACT Waterlines",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/basemaps/basic/MapServer/60",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence",
+                                    "info": [
+                                        {
+                                            "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                            "name": "Licence"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "ACT Water Management Areas",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/basemaps/basic/MapServer/62",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence",
+                                    "info": [
+                                        {
+                                            "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                            "name": "Licence"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "ACT Water Polygons",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/basemaps/basic/MapServer/59",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence",
+                                    "info": [
+                                        {
+                                            "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                            "name": "Licence"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "Groundwater Bores",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/basemaps/basic/MapServer/61",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence",
+                                    "info": [
+                                        {
+                                            "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                            "name": "Licence"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "name": "Climatic & atmospheric",
+                    "items": [
+                        {
+                            "type": "esri-mapServer",
+                            "name": "ACT Wind Map",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/windlab/MapServer",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence",
+                                    "info": [
+                                        {
+                                            "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                            "name": "Licence"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "name": "Natural environment",
+                    "items": [
+                        {
+                            "type": "esri-mapServer",
+                            "name": "ACT Tree Register",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/tree_register/MapServer",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence",
+                                    "info": [
+                                        {
+                                            "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                            "name": "Licence"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "Canberra Vegetation Structure map",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/vegetation_mapping/MapServer",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence",
+                                    "info": [
+                                        {
+                                            "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                            "name": "Licence"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "Environmental Offsets",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/environmental_offsets/MapServer",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence",
+                                    "info": [
+                                        {
+                                            "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                            "name": "Licence"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "Significant Plants and Animals of the ACT",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/significant_plants_and_animals/MapServer",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence",
+                                    "info": [
+                                        {
+                                            "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                            "name": "Licence"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "Preferred Planting locations",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/preferred_planting_location/MapServer",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence",
+                                    "info": [
+                                        {
+                                            "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                            "name": "Licence"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "Local Links Canopy",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/local_links_canopy_connection/MapServer",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence",
+                                    "info": [
+                                        {
+                                            "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                            "name": "Licence"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "Habitat Patches",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/habitat_patches/MapServer",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence",
+                                    "info": [
+                                        {
+                                            "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                            "name": "Licence"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "Colonisation Potential Model - Woodland Model",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/colonisation_potential_woodland_model/MapServer",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence",
+                                    "info": [
+                                        {
+                                            "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                            "name": "Licence"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "Colonisation Potential Model - Generalist Model",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/colonisation_potential_generalist/MapServer",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence",
+                                    "info": [
+                                        {
+                                            "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                            "name": "Licence"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "Colonisation Potential Model - Potential Forest Model",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/colonisation_potential_forest_model/MapServer",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence",
+                                    "info": [
+                                        {
+                                            "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                            "name": "Licence"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "Regional Linkage Value",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/regional_linkage_value/MapServer",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence",
+                                    "info": [
+                                        {
+                                            "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                            "name": "Licence"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "Canopy Gap ",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/canopygap/MapServer",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence",
+                                    "info": [
+                                        {
+                                            "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                            "name": "Licence"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "ACT Veg Sub Formation",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/vegetation_mapping/MapServer/54",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence",
+                                    "info": [
+                                        {
+                                            "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                            "name": "Licence"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "name": "Topographic",
+                    "items": [
+                        {
+                            "type": "esri-mapServer",
+                            "name": "2004 10m Contours",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/basic_for_imagery/MapServer/9",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence",
+                                    "info": [
+                                        {
+                                            "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                            "name": "Licence"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "2004 1m Contours",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/basic/MapServer/12",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence",
+                                    "info": [
+                                        {
+                                            "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                            "name": "Licence"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "2004 5m Contours",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/basic/MapServer/11",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence",
+                                    "info": [
+                                        {
+                                            "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                            "name": "Licence"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "2004 5m Contours",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/basic/MapServer/11",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "name": "Positioning",
+                    "items": [
+                        {
+                            "type": "esri-mapServer",
+                            "name": "Geocoded Addressing",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/basic_for_imagery/MapServer/3",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "Feature Names",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/basic/MapServer/4",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "Survey Control Marks",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/scm_layer/MapServer",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "name": "Imagery",
+                    "items": [
+                        {
+                            "type": "esri-mapServer",
+                            "name": "2004 Imagery",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/imagery2004mga/MapServer",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "2009 Imagery",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/imagery2009mga/MapServer",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "2012 Imagery",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/imagery2012mga/MapServer",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "2014 Imagery",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/imagery2014mga/MapServer",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "2015 aerial Imagery (20cm)",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/imagery2015mga/MapServer",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "2016 Aerial Imagery",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/imagery2016mga/MapServer",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "name": "Emergency management",
+                    "items": [
+                        {
+                            "type": "esri-mapServer",
+                            "name": "Bushfire Abatement Zones",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/esa_sbmp_2014_BAZ2014/MapServer",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "Bushfire Operational Plans",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/esa_sbmp_2014_BOP/MapServer",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "Bushfire Prone Areas",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/esa_sbmp_2014_BPA/MapServer",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "Regional Fire Management",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/esa_sbmp_2014_RFMP/MapServer",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "Bushfire Fire Management Zones",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/esa_sbmp_2014_FMZ/MapServer",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "ACT 100 year Flooding",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/esa_flood_100yr/MapServer",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "name": "Cultural",
+                    "items": [
+                        {
+                            "type": "esri-mapServer",
+                            "name": "ACT - Canberra Heritage Tracks",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/canberra_tracks/MapServer",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "ACT heritage Map",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/heritage_mga/MapServer",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "esri-mapServer",
+                            "name": "Bicentennial National Trail",
+                            "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/basic_for_imagery/MapServer/23",
+                            "info": [
+                                {
+                                    "content": "[Creative Commons Attribution 4.0 International](creativecommons.org/licenses/by/4.0)",
+                                    "name": "Licence"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }
