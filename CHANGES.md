@@ -4,6 +4,8 @@ Change Log
 
 ### 2016-07-15
 * Add 62 layers from the ACT Government.
+* Switch to using EJS templates instead of merging JSON files. Much simpler and more flexible.
+* Generate a nm_big.json alongside nm.json, which is un-minified.
 
 ### 2016-06-15
 
