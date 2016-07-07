@@ -26,7 +26,12 @@ if (!fs.existsSync(workDir)) {
     fs.mkdirSync(workDir);
 }
 
-gulp.task('build', ['merge-datasources', 'list-ga-services']);
+gulp.task('build', ['render-datasource-templates', 'merge-datasources', 'list-ga-services']);
+gulp.task('release', ['render-datasource-templates', 'merge-datasources', 'make-editor-schema', 'validate']);
+gulp.task('watch', ['watch-datasource-templates', 'watch-datasources']);
+gulp.task('default', ['build']);
+
+gulp.task('merge-datasources', ['merge-catalog', 'merge-groups']);
 
 gulp.task('list-ga-services', function(done) {
     var exec = require('child_process').exec;
@@ -53,7 +58,6 @@ gulp.task('make-editor-schema', ['copy-editor'], function(done) {
         .pipe(gulp.dest('./wwwroot/editor'));
 });*/
 
-gulp.task('release', ['merge-datasources', 'make-editor-schema', 'validate']);
 
 // Generate new schema for validator, and copy it over whatever version came with validator.
 gulp.task('make-validator-schema', function(done) {
@@ -91,7 +95,6 @@ gulp.task('watch-datasource-catalog', ['merge-catalog'], function() {
 
 gulp.task('watch-datasources', ['watch-datasource-groups','watch-datasource-catalog']);
 
-gulp.task('watch', ['watch-datasources']);
 
 gulp.task('merge-groups', function() {
     var jsonspacing=0;
@@ -125,9 +128,59 @@ gulp.task('merge-catalog', ['merge-groups'], function() {
     .pipe(gulp.dest(targetDir));
 });
 
-gulp.task('merge-datasources', ['merge-catalog', 'merge-groups']);
+/*
+    Use EJS to render "datasources/foo.ejs" to "wwwroot/init/foo.json". Include files should be
+    stored in "datasources/includes/blah.ejs". You can refer to an include file as:
 
-gulp.task('default', ['build']);
+    <%- include includes/foo %>
+
+    If you want to pass parameters to the included file, do this instead:
+
+    <%- include('includes/foo', { name: 'Cool layer' } %>
+
+    and in includes/foo:
+
+    "name": "<%= name %>"
+ */
+gulp.task('render-datasource-templates', function() {
+    var ejs = require('ejs');
+    var JSON5 = require('json5');
+    var templateDir = 'datasources';
+    try {
+        fs.accessSync(templateDir);
+    } catch (e) {
+        // Datasources directory doesn't exist? No problem.
+        return;
+    }
+    fs.readdirSync(templateDir).forEach(function(filename) {
+        if (filename.match(/\.ejs$/)) {
+            var templateFilename = path.join(templateDir, filename);
+            var template = fs.readFileSync(templateFilename,'utf8');
+            var result = ejs.render(template, null, {filename: templateFilename});
+
+            // Remove all new lines. This means you can add newlines to help keep source files manageable, without breaking your JSON.
+            // If you want actual new lines displayed somewhere, you should probably use <br/> if it's HTML, or \n\n if it's Markdown.
+            //result = result.replace(/(?:\r\n|\r|\n)/g, '');
+
+            var outFilename = filename.replace('.ejs', '.json');
+            try {
+                // Replace "2" here with "0" to minify.
+                result = JSON.stringify(JSON5.parse(result), null, 2);
+                console.log('Rendered template ' + outFilename);
+            } catch (e) {
+                console.warn('Warning: Rendered template ' + outFilename + ' is not valid JSON');
+            }
+            fs.writeFileSync(path.join('wwwroot/init', outFilename), new Buffer(result));
+        }
+    });
+
+});
+
+gulp.task('watch-datasource-templates', ['render-datasource-templates'], function() {
+    return gulp.watch(['datasources/**/*.ejs','datasources/*.json'], watchOptions, [ 'render-datasource-templates' ]);
+});
+
+
 
 function onError(e) {
     gutil.log(e.message);
