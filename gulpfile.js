@@ -26,7 +26,7 @@ if (!fs.existsSync(workDir)) {
 }
 
 gulp.task('build', ['render-datasource-templates', 'list-ga-services']);
-gulp.task('release', ['render-datasource-templates','make-editor-schema', 'validate']);
+gulp.task('release', ['render-datasource-templates',/*'make-editor-schema', 'validate'*/]);
 gulp.task('watch', ['watch-datasource-templates']);
 gulp.task('default', ['build']);
 
@@ -40,20 +40,23 @@ gulp.task('list-ga-services', function(done) {
 });
 
 // Generate new schema for editor, and copy it over whatever version came with editor.
+/*
 gulp.task('make-editor-schema', ['copy-editor'], function(done) {
-/*    generateSchema({
+    generateSchema({
         source: 'node_modules/terriajs',
         dest: 'wwwroot/editor',
         noversionsubdir: true,
         editor: true,
         quiet: true
-    }).then(done);*/
+    }).then(done);
 });
-
-/*gulp.task('copy-editor', function() {
+*/
+/*
+gulp.task('copy-editor', function() {
     return gulp.src('./node_modules/terriajs-catalog-editor/**')
         .pipe(gulp.dest('./wwwroot/editor'));
-});*/
+});
+*/
 
 
 // Generate new schema for validator, and copy it over whatever version came with validator.
