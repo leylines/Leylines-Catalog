@@ -9,7 +9,8 @@ Change Log
 * Generate a nm_big.json alongside nm.json, which is un-minified.
 * Search data.vic.gov.au for KMZs (and GeoJSON and Csv-geo-au, which there aren't any of yet).
 * Add ACMA dataset.
-* Added Geoscience Australia DEM datasets.
+* Add Geoscience Australia DEM datasets.
+* Add ABS statistical boundary GIS layers from the ABS Esri MapServer.
 
 ### 2016-06-15
 
