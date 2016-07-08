@@ -132,6 +132,60 @@
                   "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
                 }
               ]
+            },
+            {
+              "id": "54a557ba",
+              "name": "LiDAR 25m DEM",
+              "layers": "Image",
+              "url": "http://services.ga.gov.au/gis/services/DEM_LiDAR_25m/MapServer/WMSServer",
+              "type": "wms",
+              "featureInfoTemplate" : {
+                "name": "{{PixelValue}} metres",
+                "template": "{{PixelValue}} metres",
+                "formats": {
+                  "PixelValue": {"maximumFractionDigits": 0}
+                }
+              },
+              "info": [
+                {
+                  "name": "Data Download",
+                  "content": "Elevation data provided by Geoscience Australia (GA). You can download the data by accessing GA’s [Elevation Information System – ELVIS](http://www.ga.gov.au/elvis/)"
+                }
+              ]
+            },
+            {
+              "id": "54a557e2",
+              "name": "LiDAR 5m DEM",
+              "layers": "Image",
+              "url": "http://services.ga.gov.au/gis/services/DEM_LiDAR_5m/MapServer/WMSServer",
+              "type": "wms",
+              "featureInfoTemplate" : {
+                "name": "{{PixelValue}} metres",
+                "template": "{{PixelValue}} metres",
+                "formats": {
+                  "PixelValue": {"maximumFractionDigits": 0}
+                }
+              },
+              "info": [
+                {
+                  "name": "Data Download",
+                  "content": "Elevation data provided by Geoscience Australia (GA). You can download the data by accessing GA’s [Elevation Information System – ELVIS](http://www.ga.gov.au/elvis/)"
+                }
+              ]
+            },
+            {
+              "id": "54a55774",
+              "name": "Land slope in percent",
+              "layers": "dem_s_slopepct",
+              "url": "http://www.ga.gov.au/gisimg/services/topography/dem_s_slopepct/ImageServer/WMSServer",
+              "type": "wms"
+            },
+            {
+              "id": "54a55788",
+              "name": "Aspect",
+              "layers": "dem_s_aspect",
+              "url": "http://www.ga.gov.au/gisimg/services/topography/dem_s_aspect/ImageServer/WMSServer",
+              "type": "wms"
             }
           ],
           "name": "Elevation",
