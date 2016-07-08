@@ -18,10 +18,13 @@
   },
   "homepage": "https://github.com/TerriaJS/NationalMap-Catalog",
   "devDependencies": {
+    "ejs": "^2.4.2",
     "gulp": "^3.9.1",
-    "gulp-jsoncombine": "^1.0.3",
     "gulp-util": "^3.0.7",
     "terriajs-schema": "^0.4.3",
     "jq-cli-wrapper": "^0.3.0"
+  },
+  "dependencies": {
+    "json5": "^0.5.0"
   }
 }
