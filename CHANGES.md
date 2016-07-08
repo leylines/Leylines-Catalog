@@ -7,12 +7,13 @@ Change Log
 * Switch to using EJS templates instead of merging JSON files. Much simpler and more flexible.
 * Generate a nm_big.json alongside nm.json, which is un-minified.
 * Search data.vic.gov.au for KMZs (and GeoJSON and Csv-geo-au, which there aren't any of yet).
+* Add ACMA dataset.
 
 ### 2016-06-15
 
 * Changed the message that is displayed the first time the ACT group is opened.  It now indicates that the data will be back after 1 July.
 * Fixed an incorrect legend displayed for several datasets in `Statistical Boundaries`.
-* Fixed an incorrect licence displayed for several Tasmanian Government datasets. 
+* Fixed an incorrect licence displayed for several Tasmanian Government datasets.
 
 ### 2016-05-13
 

@@ -115,7 +115,7 @@ gulp.task('render-datasource-templates', function() {
 
             // Remove all new lines. This means you can add newlines to help keep source files manageable, without breaking your JSON.
             // If you want actual new lines displayed somewhere, you should probably use <br/> if it's HTML, or \n\n if it's Markdown.
-            //result = result.replace(/(?:\r\n|\r|\n)/g, '');
+            result = result.replace(/(?:\r\n|\r|\n)/g, '');
 
             var outFilename = filename.replace('.ejs', '.json');
 
