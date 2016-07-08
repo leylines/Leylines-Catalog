@@ -10,6 +10,7 @@ Change Log
 * Search data.vic.gov.au for KMZs (and GeoJSON and Csv-geo-au, which there aren't any of yet).
 * Add ACMA dataset.
 * Added Geoscience Australia DEM datasets.
+* Added Agricultural Exposure and Building Exposure datasets.
 
 ### 2016-06-15
 
