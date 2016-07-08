@@ -2,4 +2,5 @@ language: node_js
 node_js:
 - '5'
 script:
-- gulp release list-ga-services
+- gulp release
+- gulp list-ga-services
