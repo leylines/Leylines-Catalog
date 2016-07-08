@@ -6,6 +6,7 @@ Change Log
 * Add 62 layers from the ACT Government.
 * Switch to using EJS templates instead of merging JSON files. Much simpler and more flexible.
 * Generate a nm_big.json alongside nm.json, which is un-minified.
+* Search data.vic.gov.au for KMZs (and GeoJSON and Csv-geo-au, which there aren't any of yet).
 
 ### 2016-06-15
 
