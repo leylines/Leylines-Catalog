@@ -267,6 +267,25 @@
                 "dataVariable": "State",
                 "displayDuration": 1440
               }
+            },
+            {
+              "id": "54a553a0",
+              "name": "Radio Licenses - ACMA",
+              "layers": "acma_licenses,acma_sites",
+              "url": "http://geo-prototype1.aremi.nicta.com.au/geoserver/acma/wms",
+              "type": "wms",
+              "opacity": 1,
+              "legendUrl": "http://geo-prototype1.aremi.nicta.com.au/geoserver/acma/ows?service=WMS&request=GetLegendGraphic&width=20&height=20&layer=acma_sites&format=image%2Fpng&.png",
+              "parameters": {
+                "feature_count": 2001
+              },
+              "dataUrl": "http://geo-prototype1.aremi.nicta.com.au/geoserver/acma/wfs?service=WFS&request=GetFeature&typeName=acma%3Aacma_licenses&version=1.1.0&outputFormat=JSON&srsName=EPSG%3A4326",
+              "dataUrlType": "wfs-complete",
+              "featureInfoTemplate": {
+                "template": "{{#LICENCE_NO}}<strong><a href='http://web.acma.gov.au/pls/radcom/client_search.client_lookup?pCLIENT_NO={{CLIENT_NO}}'>{{LICENSEE}}</a></strong><br/><small><a href='http://web.acma.gov.au/pls/radcom/site_search.site_lookup?pSITE_ID={{SITE_ID}}'>{{LOCATION}}</a></small><br/><table>    <tr><td>Freq.</td>              <td>{{PRETTY_FREQ}} {{#ANT_BAND}}({{ANT_BAND}} Band){{/ANT_BAND}}</td></tr>    {{#PRETTY_CAR}}    <tr><td>FM Carrier Freq.</td>   <td>{{PRETTY_CAR}}</td></tr>    {{/PRETTY_CAR}}    <tr><td>TX Power</td>           <td>{{TX_POWER}}W ({{MODE}}X)</td></tr>    <tr><td>Height</td>             <td>{{ANT_HGT}}</td></tr>    <tr><td>Antenna type</td>       <td>{{ANT_TYPE}}</td></tr>    <tr><td>EIRP</td>               <td>{{EIRP}}</td></tr>    <tr><td>Licence No.</td>        <td><a href='http://web.acma.gov.au/pls/radcom/licence_search.licence_lookup?pSOURCE=RADCOM&pLICENCE_NO={{LICENCE_NO}}'>{{LICENCE_NO}}</a></td></tr></table>{{/LICENCE_NO}}{{^LICENCE_NO}}<strong><a href='http://web.acma.gov.au/pls/radcom/site_search.site_lookup?pSITE_ID={{SITE_ID}}'>{{SITE_NAME}}</a></strong><br/>Licences at site: {{Num_Licenses}}<br/>WGS84 Coords: {{WGS84_LAT}} {{WGS84_LON}}<br/>Precision: {{PRECISION}}{{/LICENCE_NO}}",
+                "name": "{{#LICENCE_NO}}Licence: {{{LICENSEE}}}, {{PRETTY_FREQ}}{{/LICENCE_NO}}{{^LICENCE_NO}}Site: {{{SITE_NAME}}}{{/LICENCE_NO}}"
+              },
+              "dataCustodian": "[Australian Communications and Media Authority](http://www.acma.gov.au/)"
             }
           ],
           "type": "group",
@@ -1361,6 +1380,16 @@
                   "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
                 }
               ]
+            },
+            {
+              "name": "Agricultural exposure",
+              "type": "esri-mapServer",
+              "url": "http://services.ga.gov.au/gis/rest/services/NEXIS_Agricultural_Exposure/MapServer"
+            },
+            {
+              "name": "Building exposure",
+              "type": "esri-mapServer",
+              "url": "http://services.ga.gov.au/gis/rest/services/NEXIS_Building_Exposure/MapServer"
             },
             {
               "name": "Medicare Offices",
@@ -3576,6 +3605,64 @@
                   "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
                 }
               ]
+            },
+            {
+              "id": "54a557ba",
+              "name": "LiDAR 25m DEM",
+              "layers": "Image",
+              "url": "http://services.ga.gov.au/gis/services/DEM_LiDAR_25m/MapServer/WMSServer",
+              "type": "wms",
+              "featureInfoTemplate": {
+                "name": "{{PixelValue}} metres",
+                "template": "{{PixelValue}} metres",
+                "formats": {
+                  "PixelValue": {
+                    "maximumFractionDigits": 0
+                  }
+                }
+              },
+              "info": [
+                {
+                  "name": "Data Download",
+                  "content": "Elevation data provided by Geoscience Australia (GA). You can download the data by accessing GA’s [Elevation Information System – ELVIS](http://www.ga.gov.au/elvis/)"
+                }
+              ]
+            },
+            {
+              "id": "54a557e2",
+              "name": "LiDAR 5m DEM",
+              "layers": "Image",
+              "url": "http://services.ga.gov.au/gis/services/DEM_LiDAR_5m/MapServer/WMSServer",
+              "type": "wms",
+              "featureInfoTemplate": {
+                "name": "{{PixelValue}} metres",
+                "template": "{{PixelValue}} metres",
+                "formats": {
+                  "PixelValue": {
+                    "maximumFractionDigits": 0
+                  }
+                }
+              },
+              "info": [
+                {
+                  "name": "Data Download",
+                  "content": "Elevation data provided by Geoscience Australia (GA). You can download the data by accessing GA’s [Elevation Information System – ELVIS](http://www.ga.gov.au/elvis/)"
+                }
+              ]
+            },
+            {
+              "id": "54a55774",
+              "name": "Land slope in percent",
+              "layers": "dem_s_slopepct",
+              "url": "http://www.ga.gov.au/gisimg/services/topography/dem_s_slopepct/ImageServer/WMSServer",
+              "type": "wms"
+            },
+            {
+              "id": "54a55788",
+              "name": "Aspect",
+              "layers": "dem_s_aspect",
+              "url": "http://www.ga.gov.au/gisimg/services/topography/dem_s_aspect/ImageServer/WMSServer",
+              "type": "wms"
             }
           ],
           "name": "Elevation",
@@ -5956,9 +6043,13 @@
       "minimumMaxScaleDenominator": 10000000000,
       "filterByWmsGetCapabilities": true,
       "filterQuery": [
-        "fq=res_format%3awms"
+        "fq=+(res_format%3Awms%20OR%20res_format%3AWMS)",
+        "fq=+(res_format%3Akmz%20OR%20res_format%3Ageojson%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv)"
       ],
       "url": "http://www.data.vic.gov.au/data",
+      "includeCsv": true,
+      "includeKml": true,
+      "ungroupedTitle": "(No group)",
       "type": "ckan",
       "name": "Victorian Government"
     },
