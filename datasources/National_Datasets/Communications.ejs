@@ -223,23 +223,47 @@
               }
             },
             {
-              "id": "54a553a0",
-              "name": "Radio Licenses - ACMA",
-              "layers": "acma_licenses,acma_sites",
-              "url": "http://geo-prototype1.aremi.nicta.com.au/geoserver/acma/wms",
-              "type": "wms",
-              "opacity": 1.0,
-              "legendUrl": "http://geo-prototype1.aremi.nicta.com.au/geoserver/acma/ows?service=WMS&request=GetLegendGraphic&width=20&height=20&layer=acma_sites&format=image%2Fpng&.png",
-              "parameters": {
-                "feature_count": 2001
-              },
-              "dataUrl": "http://geo-prototype1.aremi.nicta.com.au/geoserver/acma/wfs?service=WFS&request=GetFeature&typeName=acma%3Aacma_licenses&version=1.1.0&outputFormat=JSON&srsName=EPSG%3A4326",
-              "dataUrlType": "wfs-complete",
-              "featureInfoTemplate" : {
-                "template": "<% include includes/acma_featureinfo %>",
-                "name": "{{#LICENCE_NO}}Licence: {{{LICENSEE}}}, {{PRETTY_FREQ}}{{/LICENCE_NO}}{{^LICENCE_NO}}Site: {{{SITE_NAME}}}{{/LICENCE_NO}}"
-              },
-              "dataCustodian": "[Australian Communications and Media Authority](http://www.acma.gov.au/)"
+                "name": "ABC Photo Stories (2009-2014)",
+                "type": "csv",
+                "url": "http://data.gov.au/dataset/3fd356c6-0ad4-453e-82e9-03af582024c3/resource/d73f2a2a-c271-4edd-ac45-25fd7ad2241f/download/localphotostories20092014csv.csv",
+                "featureInfoTemplate": {
+                    "template": "<div class='abc'><small>{{Date}}</small>{{#Primary image}}<figure><img src='{{Primary image}}'/><figcaption>{{Primary image caption}}</figcaption></figure>{{/Primary image}}<p><a target='_blank' href={{URL}}>Read More</a></div>"
+                },
+                "tableStyle": {
+                    "dataVariable": "State",
+                    "timeColumn": null
+                }
+            },
+            {
+                "name": "ABC Photo Stories by date",
+                "type": "csv",
+                "url": "http://data.gov.au/dataset/3fd356c6-0ad4-453e-82e9-03af582024c3/resource/d73f2a2a-c271-4edd-ac45-25fd7ad2241f/download/localphotostories20092014csv.csv",
+                "featureInfoTemplate": {
+                    "template": "<div class='abc'><small>{{Date}}</small>{{#Primary image}}<figure><img src='{{Primary image}}'/><figcaption>{{Primary image caption}}</figcaption></figure>{{/Primary image}}<p><a target='_blank' href={{URL}}>Read More</a></div>"
+                },
+                "tableStyle": {
+                    "dataVariable": "State",
+                    "displayDuration": 1440
+                }
+            },
+            {
+                "id": "54a553a0",
+                "name": "Radio Licenses - ACMA",
+                "layers": "acma_licenses,acma_sites",
+                "url": "http://geo-prototype1.aremi.nicta.com.au/geoserver/acma/wms",
+                "type": "wms",
+                "opacity": 1.0,
+                "legendUrl": "http://geo-prototype1.aremi.nicta.com.au/geoserver/acma/ows?service=WMS&request=GetLegendGraphic&width=20&height=20&layer=acma_sites&format=image%2Fpng&.png",
+                "parameters": {
+                  "feature_count": 2001
+                },
+                "dataUrl": "http://geo-prototype1.aremi.nicta.com.au/geoserver/acma/wfs?service=WFS&request=GetFeature&typeName=acma%3Aacma_licenses&version=1.1.0&outputFormat=JSON&srsName=EPSG%3A4326",
+                "dataUrlType": "wfs-complete",
+                "featureInfoTemplate" : {
+                  "template": "<% include includes/acma_featureinfo %>",
+                  "name": "{{#LICENCE_NO}}Licence: {{{LICENSEE}}}, {{PRETTY_FREQ}}{{/LICENCE_NO}}{{^LICENCE_NO}}Site: {{{SITE_NAME}}}{{/LICENCE_NO}}"
+                },
+                "dataCustodian": "[Australian Communications and Media Authority](http://www.acma.gov.au/)"
             }
           ],
           "type": "group",

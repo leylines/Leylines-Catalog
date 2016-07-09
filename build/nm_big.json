@@ -245,6 +245,30 @@
               }
             },
             {
+              "name": "ABC Photo Stories (2009-2014)",
+              "type": "csv",
+              "url": "http://data.gov.au/dataset/3fd356c6-0ad4-453e-82e9-03af582024c3/resource/d73f2a2a-c271-4edd-ac45-25fd7ad2241f/download/localphotostories20092014csv.csv",
+              "featureInfoTemplate": {
+                "template": "<div class='abc'><small>{{Date}}</small>{{#Primary image}}<figure><img src='{{Primary image}}'/><figcaption>{{Primary image caption}}</figcaption></figure>{{/Primary image}}<p><a target='_blank' href={{URL}}>Read More</a></div>"
+              },
+              "tableStyle": {
+                "dataVariable": "State",
+                "timeColumn": null
+              }
+            },
+            {
+              "name": "ABC Photo Stories by date",
+              "type": "csv",
+              "url": "http://data.gov.au/dataset/3fd356c6-0ad4-453e-82e9-03af582024c3/resource/d73f2a2a-c271-4edd-ac45-25fd7ad2241f/download/localphotostories20092014csv.csv",
+              "featureInfoTemplate": {
+                "template": "<div class='abc'><small>{{Date}}</small>{{#Primary image}}<figure><img src='{{Primary image}}'/><figcaption>{{Primary image caption}}</figcaption></figure>{{/Primary image}}<p><a target='_blank' href={{URL}}>Read More</a></div>"
+              },
+              "tableStyle": {
+                "dataVariable": "State",
+                "displayDuration": 1440
+              }
+            },
+            {
               "id": "54a553a0",
               "name": "Radio Licenses - ACMA",
               "layers": "acma_licenses,acma_sites",
@@ -1356,6 +1380,16 @@
                   "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
                 }
               ]
+            },
+            {
+              "name": "Agricultural exposure",
+              "type": "esri-mapServer",
+              "url": "http://services.ga.gov.au/gis/rest/services/NEXIS_Agricultural_Exposure/MapServer"
+            },
+            {
+              "name": "Building exposure",
+              "type": "esri-mapServer",
+              "url": "http://services.ga.gov.au/gis/rest/services/NEXIS_Building_Exposure/MapServer"
             },
             {
               "name": "Medicare Offices",
