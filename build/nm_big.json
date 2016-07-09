@@ -3796,13 +3796,6 @@
           "name": "Water (Bureau of Meteorology Geofabric)"
         },
         {
-          "type": "wms-getCapabilities",
-          "url": "http://geoserver.nationalmap.nicta.com.au/admin_bnds_abs/ows",
-          "dataCustodian": "[Australian Bureau of Statistics](http://www.abs.gov.au/)",
-          "description": "[Licence](http://creativecommons.org/licenses/by/2.5/au/)",
-          "name": "Boundaries (Australia Bureau of Statistics)"
-        },
-        {
           "type": "socrata",
           "name": "City of Melbourne",
           "groupBy": "category",
@@ -4052,6 +4045,1095 @@
           "isOpen": true,
           "type": "group",
           "name": "2011 Census (Selected Datasets)"
+        },
+        {
+          "type": "group",
+          "name": "ABS statistical boundaries",
+          "items": [
+            {
+              "type": "group",
+              "name": "2001",
+              "items": [
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2001_CD/MapServer",
+                  "name": "Census districts (CD)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2001_CED/MapServer",
+                  "name": "Commonwealth Electoral Districts (CED)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2001_IARE/MapServer",
+                  "name": "Indigenous areas (IARE)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2001_ILOC/MapServer",
+                  "name": "Indigenous locations (ILOC)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2001_IREG/MapServer",
+                  "name": "Indigenous regions (IREG)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2001_LGA/MapServer",
+                  "name": "Local government areas (LGA)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2001_MSR/MapServer",
+                  "name": "Major statistical regions (MSR)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2001_POA/MapServer",
+                  "name": "Postal areas (POA)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2001_RA/MapServer",
+                  "name": "Remoteness areas (RA)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2001_SD/MapServer",
+                  "name": "Statistical division (SD)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2001_SDIST/MapServer",
+                  "name": "Statistical districts (SDIST)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2001_SED/MapServer",
+                  "name": "State electoral divisions (SED)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2001_SLA/MapServer",
+                  "name": "Statistical local area (SLA)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2001_SOS/MapServer",
+                  "name": "Secion of state (SOS)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2001_SOSR/MapServer",
+                  "name": "Section of state range (SOSR)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2001_SR/MapServer",
+                  "name": "Statistical regions (SR)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2001_SRS/MapServer",
+                  "name": "Statistical region sectors (SRS)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2001_SSC/MapServer",
+                  "name": "Suburbs (SSC)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2001_SSD/MapServer",
+                  "name": "Statistical subdivision (SSD)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2001_UCL/MapServer",
+                  "name": "Urban centres and localities (UCL)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "name": "2006",
+              "items": [
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2006_CD/MapServer",
+                  "name": "Census district (CD)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2006_CED04/MapServer",
+                  "name": "Commonwealth Electoral Divisions 2004 (CED04)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2006_CED07/MapServer",
+                  "name": "Commonwealth Electoral Divisions 2007 (CED07)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2006_IARE/MapServer",
+                  "name": "Indigenous areas (IARE)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2006_ILOC/MapServer",
+                  "name": "Indigenous locations (ILOC)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2006_IREG/MapServer",
+                  "name": "Indigenous regions (IREG)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2006_LGA/MapServer",
+                  "name": "Local government areas (LGA)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2006_MDB/MapServer",
+                  "name": "Murray Darling Basin (MDB)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2006_MSR/MapServer",
+                  "name": "Major statistical region (MSR)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2006_NRM/MapServer",
+                  "name": "National resource management regions (NRM)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2006_POA/MapServer",
+                  "name": "Postal areas (POA)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2006_RA/MapServer",
+                  "name": "Remoteness areas (RA)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2006_SD/MapServer",
+                  "name": "Statitsical division (SD)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2006_SDIST/MapServer",
+                  "name": "Statistical districts (SDIST)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2006_SED/MapServer",
+                  "name": "State electoral divisions (SED)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2006_SLA/MapServer",
+                  "name": "Statistical local area (SLA)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2006_SOS/MapServer",
+                  "name": "Section of state (SOS)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2006_SOSR/MapServer",
+                  "name": "Section of state range (SOSR)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2006_SR/MapServer",
+                  "name": "Statistical regions (SR)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2006_SRS/MapServer",
+                  "name": "Statistical region sector (SRS)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2006_SSC/MapServer",
+                  "name": "Suburbs (SSC)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2006_SSD/MapServer",
+                  "name": "Statistical subdivisions (SSD)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2006_UCL/MapServer",
+                  "name": "Urban centres and localities (UCL)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "name": "2011",
+              "items": [
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2011_ADD/MapServer",
+                  "name": "Australian drainage divisions (ADD)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2011_DZN/MapServer",
+                  "name": "Destination zones (DZN)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2011_GCCSA/MapServer",
+                  "name": "Greater capital city statistical areas (GCCSA)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2011_GL/MapServer",
+                  "name": "GL",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2011_IARE/MapServer",
+                  "name": "Indigenous areas (IARE)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2011_ILOC/MapServer",
+                  "name": "Indigenous locations (ILOC)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2011_IREG/MapServer",
+                  "name": "Indigenous regions (IREG)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2011_LGA/MapServer",
+                  "name": "Local government areas (LGA)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2011_NRMR/MapServer",
+                  "name": "Natural resource management regions (NRMR)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2011_POA/MapServer",
+                  "name": "Postal areas (POA)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2011_RA/MapServer",
+                  "name": "Remoteness areas (RA)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2011_SA1/MapServer",
+                  "name": "Statistical area level 1 (SA1)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2011_SA2/MapServer",
+                  "name": "Statistical area level 2 (SA2)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2011_SA3/MapServer",
+                  "name": "Statistical area level 3 (SA3)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2011_SA4/MapServer",
+                  "name": "Statistical area level 4 (SA4)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2011_SED/MapServer",
+                  "name": "State electoral divisions (SED)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2011_SLA/MapServer",
+                  "name": "Statistical local areas (SLA)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2011_SOS/MapServer",
+                  "name": "Section of state (SOS)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2011_SOSR/MapServer",
+                  "name": "Section of state range (SOSR)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2011_SSC/MapServer",
+                  "name": "Suburbs (SSC)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2011_SUA/MapServer",
+                  "name": "Significant urban areas (SUA)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2011_UCL/MapServer",
+                  "name": "Urban centres and localities (UCL)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2011_CED/MapServer",
+                  "name": "Commonwealth electoral divisions 2011 (CED)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2012_CED/MapServer",
+                  "name": "Commonwealth electoral divisions 2012 (CED)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2016_CED/MapServer",
+                  "name": "Commonwealth electoral divisions 2016 (CED)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2012_LGA/MapServer",
+                  "name": "Local government areas 2012 (LGA)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2013_LGA/MapServer",
+                  "name": "Local government areas 2013 (LGA)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/2014_LGA/MapServer",
+                  "name": "Local government areas 2014 (LGA)",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "The ABS Geospatial Web Services provide access to the ASGS boundaries. The objectives of publishing the ASGS boundaries as web services are:<ol><li>To provide easy access to the official ASGS boundaries in a machine readable format which facilitates their use within web applications.</li><li>To provide an unambiguous single point of truth for the ASGS boundaries.</li></ol><br/><a href=\"http://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/1470.0Main%20Features12015\">More information</a>."
+                    },
+                    {
+                      "name": "Licence",
+                      "content": "[CC-BY 2.5](http://www.abs.gov.au/websitedbs/D3310114.nsf/4a256353001af3ed4b2562bb00121564/8b2bdbc1d45a10b1ca25751d000d9b03)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "initialMessage": {

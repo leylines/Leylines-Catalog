@@ -12,6 +12,7 @@ Change Log
 * Added ACMA dataset.
 * Added Geoscience Australia DEM datasets.
 * Added Agricultural Exposure and Building Exposure datasets.
+* Added ABS statistical boundary GIS layers from the ABS Esri MapServer.
 
 ### 2016-06-15
 
