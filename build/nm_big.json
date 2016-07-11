@@ -7143,6 +7143,588 @@
       "filterQuery": [
         "q=data_homepage:*_Public_Services*&fq=res_format:WMS"
       ]
+    },
+    {
+      "type": "group",
+      "name": "Local Government",
+      "items": [
+        {
+          "name": "Queensland",
+          "type": "group",
+          "items": [
+            {
+              "type": "ckan",
+              "name": "Brisbane City Council",
+              "url": "https://www.data.brisbane.qld.gov.au/data",
+              "filterQuery": [
+                "q=groups%3Dspatial-data"
+              ],
+              "csvResourceFormat": "csv",
+              "includeCsv": true,
+              "includeKml": true,
+              "includeGeoJson": true
+            },
+            {
+              "type": "esri-mapServer-group",
+              "name": "Sunshine Coast Council (QLD)",
+              "url": "https://gisservices.scc.qld.gov.au/arcgis/rest/services"
+            },
+            {
+              "minimumMaxScaleDenominator": 10000000000,
+              "filterByWmsGetCapabilities": false,
+              "filterQuery": [
+                "fq=%28organization%3Alogan-city-council%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+              ],
+              "url": "http://www.data.gov.au",
+              "name": "Logan",
+              "type": "ckan",
+              "includeCsv": true,
+              "includeKml": true,
+              "ungroupedTitle": ""
+            },
+            {
+              "minimumMaxScaleDenominator": 10000000000,
+              "filterByWmsGetCapabilities": false,
+              "filterQuery": [
+                "fq=%28organization%3Acity-of-gold-coast%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+              ],
+              "url": "http://www.data.gov.au",
+              "name": "Gold Coast",
+              "type": "ckan",
+              "includeCsv": true,
+              "includeKml": true,
+              "ungroupedTitle": ""
+            },
+            {
+              "minimumMaxScaleDenominator": 10000000000,
+              "filterByWmsGetCapabilities": false,
+              "filterQuery": [
+                "fq=%28organization%3Anoosa-shire-council%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+              ],
+              "url": "http://www.data.gov.au",
+              "name": "Noosa",
+              "type": "ckan",
+              "includeCsv": true,
+              "includeKml": true,
+              "ungroupedTitle": ""
+            }
+          ]
+        },
+        {
+          "name": "South Australia",
+          "type": "group",
+          "items": [
+            {
+              "minimumMaxScaleDenominator": 10000000000,
+              "filterByWmsGetCapabilities": false,
+              "filterQuery": [
+                "fq=+(organization%3acity-of-onkaparinga%20AND%28res_format%3ageojson%20OR%20res_format%3aGeoJSON%20OR%20res_format%3acsv-geo-au%20OR%20res_format%3aaus-geo-csv%29)"
+              ],
+              "url": "https://data.sa.gov.au/data",
+              "name": "Onkaparinga",
+              "includeWms": false,
+              "type": "ckan",
+              "includeCsv": true,
+              "includeGeoJSON": true,
+              "includeKml": true,
+              "ungroupedTitle": ""
+            },
+            {
+              "minimumMaxScaleDenominator": 10000000000,
+              "filterByWmsGetCapabilities": false,
+              "filterQuery": [
+                "fq=+(organization%3acity-of-burnside-local-council%20AND%28res_format%3ageojson%20OR%20res_format%3aGeoJSON%20OR%20res_format%3acsv-geo-au%20OR%20res_format%3aaus-geo-csv%29)"
+              ],
+              "url": "https://data.sa.gov.au/data",
+              "name": "Burnside",
+              "includeWms": false,
+              "type": "ckan",
+              "includeCsv": true,
+              "includeGeoJSON": true,
+              "includeKml": true,
+              "ungroupedTitle": ""
+            },
+            {
+              "minimumMaxScaleDenominator": 10000000000,
+              "filterByWmsGetCapabilities": false,
+              "filterQuery": [
+                "fq=+(organization%3acity-of-playford%20AND%28res_format%3ageojson%20OR%20res_format%3aGeoJSON%20OR%20res_format%3acsv-geo-au%20OR%20res_format%3aaus-geo-csv%29)"
+              ],
+              "url": "https://data.sa.gov.au/data",
+              "name": "Playford",
+              "includeWms": false,
+              "type": "ckan",
+              "includeCsv": true,
+              "includeGeoJSON": true,
+              "includeKml": true,
+              "ungroupedTitle": ""
+            },
+            {
+              "minimumMaxScaleDenominator": 10000000000,
+              "filterByWmsGetCapabilities": false,
+              "filterQuery": [
+                "fq=+(organization%3aport-adelaide-enfield-council%20AND%28res_format%3ageojson%20OR%20res_format%3aGeoJSON%20OR%20res_format%3acsv-geo-au%20OR%20res_format%3aaus-geo-csv%29)"
+              ],
+              "url": "https://data.sa.gov.au/data",
+              "name": "Port Adelaide Enfield",
+              "includeWms": false,
+              "type": "ckan",
+              "includeCsv": true,
+              "includeGeoJSON": true,
+              "includeKml": true,
+              "ungroupedTitle": ""
+            },
+            {
+              "minimumMaxScaleDenominator": 10000000000,
+              "filterByWmsGetCapabilities": false,
+              "filterQuery": [
+                "fq=+(organization%3acity-of-salisbury-council%20AND%28res_format%3ageojson%20OR%20res_format%3aGeoJSON%20OR%20res_format%3acsv-geo-au%20OR%20res_format%3aaus-geo-csv%29)"
+              ],
+              "url": "https://data.sa.gov.au/data",
+              "name": "Salisbury",
+              "includeWms": false,
+              "type": "ckan",
+              "includeCsv": true,
+              "includeGeoJSON": true,
+              "includeKml": true,
+              "ungroupedTitle": ""
+            },
+            {
+              "minimumMaxScaleDenominator": 10000000000,
+              "filterByWmsGetCapabilities": false,
+              "filterQuery": [
+                "fq=+(organization%3aadelaide-city-council%20AND%28res_format%3ageojson%20OR%20res_format%3aGeoJSON%20OR%20res_format%3acsv-geo-au%20OR%20res_format%3aaus-geo-csv%29)"
+              ],
+              "url": "https://data.sa.gov.au/data",
+              "name": "Adelaide",
+              "includeWms": false,
+              "type": "ckan",
+              "includeCsv": true,
+              "includeGeoJSON": true,
+              "includeKml": true,
+              "ungroupedTitle": ""
+            }
+          ]
+        },
+        {
+          "name": "Tasmania",
+          "type": "group",
+          "items": [
+            {
+              "minimumMaxScaleDenominator": 10000000000,
+              "filterByWmsGetCapabilities": false,
+              "filterQuery": [
+                "fq=%28organization%3Acity-of-hobart%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+              ],
+              "url": "http://www.data.gov.au",
+              "name": "Hobart",
+              "type": "ckan",
+              "includeCsv": true,
+              "includeKml": true,
+              "ungroupedTitle": ""
+            },
+            {
+              "minimumMaxScaleDenominator": 10000000000,
+              "filterByWmsGetCapabilities": false,
+              "filterQuery": [
+                "fq=%28organization%3Agcc%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+              ],
+              "url": "http://www.data.gov.au",
+              "name": "Glenorchy",
+              "type": "ckan",
+              "includeCsv": true,
+              "includeKml": true,
+              "ungroupedTitle": ""
+            },
+            {
+              "minimumMaxScaleDenominator": 10000000000,
+              "filterByWmsGetCapabilities": false,
+              "filterQuery": [
+                "fq=%28organization%3Acityoflaunceston%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+              ],
+              "url": "http://www.data.gov.au",
+              "name": "Launceston",
+              "type": "ckan",
+              "includeCsv": true,
+              "includeKml": true,
+              "ungroupedTitle": ""
+            }
+          ]
+        },
+        {
+          "name": "Western Australia",
+          "type": "group",
+          "items": [
+            {
+              "filterQuery": [
+                "fq=+(organization%3acity-of-swan%20AND%28res_format%3awms%20OR%20res_format%3aWMS%20OR%20res_format%3acsv-geo-au%20OR%20res_format%3aaus-geo-csv%29)"
+              ],
+              "url": "http://catalogue.beta.data.wa.gov.au",
+              "name": "Swan",
+              "type": "ckan",
+              "includeCsv": true,
+              "includeGeoJson": true,
+              "includeKml": true,
+              "includeWms": true,
+              "includeWfs": true,
+              "ungroupedTitle": ""
+            }
+          ]
+        },
+        {
+          "name": "Victoria",
+          "type": "group",
+          "items": [
+            {
+              "type": "socrata",
+              "name": "City of Melbourne",
+              "groupBy": "category",
+              "filterQuery": [
+                "limitTo=MAPS"
+              ],
+              "url": "https://data.melbourne.vic.gov.au"
+            },
+            {
+              "minimumMaxScaleDenominator": 10000000000,
+              "filterByWmsGetCapabilities": false,
+              "filterQuery": [
+                "fq=%28organization%3Acity-of-greater-dandenong%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+              ],
+              "url": "http://www.data.gov.au",
+              "name": "Greater Dandenong",
+              "type": "ckan",
+              "includeCsv": true,
+              "includeKml": true,
+              "ungroupedTitle": ""
+            },
+            {
+              "minimumMaxScaleDenominator": 10000000000,
+              "filterByWmsGetCapabilities": false,
+              "filterQuery": [
+                "fq=%28organization%3Asurf-coast-shire-council%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+              ],
+              "url": "http://www.data.gov.au",
+              "name": "Surf Coast",
+              "type": "ckan",
+              "includeCsv": true,
+              "includeKml": true,
+              "ungroupedTitle": ""
+            },
+            {
+              "minimumMaxScaleDenominator": 10000000000,
+              "filterByWmsGetCapabilities": false,
+              "filterQuery": [
+                "fq=%28organization%3Acardinia-shire-council%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+              ],
+              "url": "http://www.data.gov.au",
+              "name": "Cardinia",
+              "type": "ckan",
+              "includeCsv": true,
+              "includeKml": true,
+              "ungroupedTitle": ""
+            },
+            {
+              "minimumMaxScaleDenominator": 10000000000,
+              "filterByWmsGetCapabilities": false,
+              "filterQuery": [
+                "fq=%28organization%3Asouthern-grampians-shire-council%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+              ],
+              "url": "http://www.data.gov.au",
+              "name": "Southern Grampians",
+              "type": "ckan",
+              "includeCsv": true,
+              "includeKml": true,
+              "ungroupedTitle": ""
+            },
+            {
+              "minimumMaxScaleDenominator": 10000000000,
+              "filterByWmsGetCapabilities": false,
+              "filterQuery": [
+                "fq=%28organization%3Acity-of-casey%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+              ],
+              "url": "http://www.data.gov.au",
+              "name": "Casey",
+              "type": "ckan",
+              "includeCsv": true,
+              "includeKml": true,
+              "ungroupedTitle": ""
+            },
+            {
+              "minimumMaxScaleDenominator": 10000000000,
+              "filterByWmsGetCapabilities": false,
+              "filterQuery": [
+                "fq=%28organization%3Acity-of-greater-bendigo%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+              ],
+              "url": "http://www.data.gov.au",
+              "name": "Greater Bendigo",
+              "type": "ckan",
+              "includeCsv": true,
+              "includeKml": true,
+              "ungroupedTitle": ""
+            },
+            {
+              "minimumMaxScaleDenominator": 10000000000,
+              "filterByWmsGetCapabilities": false,
+              "filterQuery": [
+                "fq=%28organization%3Ayarriambiack-shire-council%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+              ],
+              "url": "http://www.data.gov.au",
+              "name": "Yarriambiack",
+              "type": "ckan",
+              "includeCsv": true,
+              "includeKml": true,
+              "ungroupedTitle": ""
+            },
+            {
+              "minimumMaxScaleDenominator": 10000000000,
+              "filterByWmsGetCapabilities": false,
+              "filterQuery": [
+                "fq=%28organization%3Ahorsham-rural-city-council%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+              ],
+              "url": "http://www.data.gov.au",
+              "name": "Horsham",
+              "type": "ckan",
+              "includeCsv": true,
+              "includeKml": true,
+              "ungroupedTitle": ""
+            },
+            {
+              "minimumMaxScaleDenominator": 10000000000,
+              "filterByWmsGetCapabilities": false,
+              "filterQuery": [
+                "fq=%28organization%3Ahindmarsh-shire-council%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+              ],
+              "url": "http://www.data.gov.au",
+              "name": "Hindmarsh",
+              "type": "ckan",
+              "includeCsv": true,
+              "includeKml": true,
+              "ungroupedTitle": ""
+            },
+            {
+              "minimumMaxScaleDenominator": 10000000000,
+              "filterByWmsGetCapabilities": false,
+              "filterQuery": [
+                "fq=%28organization%3Aloddon-shire-council%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+              ],
+              "url": "http://www.data.gov.au",
+              "name": "Loddon",
+              "type": "ckan",
+              "includeCsv": true,
+              "includeKml": true,
+              "ungroupedTitle": ""
+            },
+            {
+              "minimumMaxScaleDenominator": 10000000000,
+              "filterByWmsGetCapabilities": false,
+              "filterQuery": [
+                "fq=%28organization%3Awest-wimmera-shire-council%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+              ],
+              "url": "http://www.data.gov.au",
+              "name": "West Wimmera",
+              "type": "ckan",
+              "includeCsv": true,
+              "includeKml": true,
+              "ungroupedTitle": ""
+            },
+            {
+              "minimumMaxScaleDenominator": 10000000000,
+              "filterByWmsGetCapabilities": false,
+              "filterQuery": [
+                "fq=%28organization%3Aalpine-shire-council%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+              ],
+              "url": "http://www.data.gov.au",
+              "name": "Alpine",
+              "type": "ckan",
+              "includeCsv": true,
+              "includeKml": true,
+              "ungroupedTitle": ""
+            },
+            {
+              "minimumMaxScaleDenominator": 10000000000,
+              "filterByWmsGetCapabilities": false,
+              "filterQuery": [
+                "fq=%28organization%3Awww-mitchellshirecouncil-vic-gov-au%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+              ],
+              "url": "http://www.data.gov.au",
+              "name": "Mitchell",
+              "type": "ckan",
+              "includeCsv": true,
+              "includeKml": true,
+              "ungroupedTitle": ""
+            },
+            {
+              "minimumMaxScaleDenominator": 10000000000,
+              "filterByWmsGetCapabilities": false,
+              "filterQuery": [
+                "fq=%28organization%3Amildura-rural-city-council%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+              ],
+              "url": "http://www.data.gov.au",
+              "name": "Mildura",
+              "type": "ckan",
+              "includeCsv": true,
+              "includeKml": true,
+              "ungroupedTitle": ""
+            },
+            {
+              "minimumMaxScaleDenominator": 10000000000,
+              "filterByWmsGetCapabilities": false,
+              "filterQuery": [
+                "fq=%28organization%3Acity-of-greater-geelong%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+              ],
+              "url": "http://www.data.gov.au",
+              "name": "Greater Geelong",
+              "type": "ckan",
+              "includeCsv": true,
+              "includeKml": true,
+              "ungroupedTitle": ""
+            },
+            {
+              "minimumMaxScaleDenominator": 10000000000,
+              "filterByWmsGetCapabilities": false,
+              "filterQuery": [
+                "fq=%28organization%3Ahobsons-bay-city-council%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+              ],
+              "url": "http://www.data.gov.au",
+              "name": "Hobsons Bay",
+              "type": "ckan",
+              "includeCsv": true,
+              "includeKml": true,
+              "ungroupedTitle": ""
+            },
+            {
+              "minimumMaxScaleDenominator": 10000000000,
+              "filterByWmsGetCapabilities": false,
+              "filterQuery": [
+                "fq=%28organization%3Amacedon-ranges-shire-council%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+              ],
+              "url": "http://www.data.gov.au",
+              "name": "Macedon Ranges",
+              "type": "ckan",
+              "includeCsv": true,
+              "includeKml": true,
+              "ungroupedTitle": ""
+            },
+            {
+              "minimumMaxScaleDenominator": 10000000000,
+              "filterByWmsGetCapabilities": false,
+              "filterQuery": [
+                "fq=%28organization%3Acorangamite-shire-council%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+              ],
+              "url": "http://www.data.gov.au",
+              "name": "Corangamite",
+              "type": "ckan",
+              "includeCsv": true,
+              "includeKml": true,
+              "ungroupedTitle": ""
+            },
+            {
+              "minimumMaxScaleDenominator": 10000000000,
+              "filterByWmsGetCapabilities": false,
+              "filterQuery": [
+                "fq=%28organization%3Acity-of-ballarat%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+              ],
+              "url": "http://www.data.gov.au",
+              "name": "Ballarat",
+              "type": "ckan",
+              "includeCsv": true,
+              "includeKml": true,
+              "ungroupedTitle": ""
+            },
+            {
+              "minimumMaxScaleDenominator": 10000000000,
+              "filterByWmsGetCapabilities": false,
+              "filterQuery": [
+                "fq=%28organization%3Agolden-plains-shire-council%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+              ],
+              "url": "http://www.data.gov.au",
+              "name": "Golden Plains",
+              "type": "ckan",
+              "includeCsv": true,
+              "includeKml": true,
+              "ungroupedTitle": ""
+            },
+            {
+              "minimumMaxScaleDenominator": 10000000000,
+              "filterByWmsGetCapabilities": false,
+              "filterQuery": [
+                "fq=%28organization%3Anillumbik-shire-council%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+              ],
+              "url": "http://www.data.gov.au",
+              "name": "Nillumbik",
+              "type": "ckan",
+              "includeCsv": true,
+              "includeKml": true,
+              "ungroupedTitle": ""
+            },
+            {
+              "minimumMaxScaleDenominator": 10000000000,
+              "filterByWmsGetCapabilities": false,
+              "filterQuery": [
+                "fq=%28organization%3Aglenelg-shire-council%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+              ],
+              "url": "http://www.data.gov.au",
+              "name": "Glenelg",
+              "type": "ckan",
+              "includeCsv": true,
+              "includeKml": true,
+              "ungroupedTitle": ""
+            },
+            {
+              "minimumMaxScaleDenominator": 10000000000,
+              "filterByWmsGetCapabilities": false,
+              "filterQuery": [
+                "fq=%28organization%3Acolac-otway-shire%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+              ],
+              "url": "http://www.data.gov.au",
+              "name": "Colac-Otway",
+              "type": "ckan",
+              "includeCsv": true,
+              "includeKml": true,
+              "ungroupedTitle": ""
+            },
+            {
+              "minimumMaxScaleDenominator": 10000000000,
+              "filterByWmsGetCapabilities": false,
+              "filterQuery": [
+                "fq=%28organization%3Awyndham-city-council%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+              ],
+              "url": "http://www.data.gov.au",
+              "name": "Wyndham",
+              "type": "ckan",
+              "includeCsv": true,
+              "includeKml": true,
+              "ungroupedTitle": ""
+            },
+            {
+              "minimumMaxScaleDenominator": 10000000000,
+              "filterByWmsGetCapabilities": false,
+              "filterQuery": [
+                "fq=%28organization%3Anorthern-grampians-shire-council%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+              ],
+              "url": "http://www.data.gov.au",
+              "name": "Northern Grampians",
+              "type": "ckan",
+              "includeCsv": true,
+              "includeKml": true,
+              "ungroupedTitle": ""
+            },
+            {
+              "minimumMaxScaleDenominator": 10000000000,
+              "filterByWmsGetCapabilities": false,
+              "filterQuery": [
+                "fq=%28organization%3Amanningham-city-council%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+              ],
+              "url": "http://www.data.gov.au",
+              "name": "Manningham",
+              "type": "ckan",
+              "includeCsv": true,
+              "includeKml": true,
+              "ungroupedTitle": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

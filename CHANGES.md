@@ -13,6 +13,7 @@ Change Log
 * Added Geoscience Australia DEM datasets.
 * Added Agricultural Exposure and Building Exposure datasets.
 * Added ABS statistical boundary GIS layers from the ABS Esri MapServer.
+* Add Local Government top-level group with councils from WA, SA, Vic, Tasmania and QLD.
 
 ### 2016-06-15
 
