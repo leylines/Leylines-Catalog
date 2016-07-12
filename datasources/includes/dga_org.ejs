@@ -2,7 +2,9 @@
     "minimumMaxScaleDenominator": 10000000000,
     "filterByWmsGetCapabilities": false,
     "filterQuery": [
-        "fq=%28organization%3A<%= org %>%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+        { 
+            fq: '(organization:<%= org %> AND(res_format:wms OR res_format:WMS OR res_format:csv-geo-au OR res_format:aus-geo-csv) OR res_format:kml OR res_format:geojson)'
+        }
     ],
     "url": "http://www.data.gov.au",
     "name": "<%= name %>",

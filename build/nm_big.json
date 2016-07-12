@@ -3774,7 +3774,9 @@
       "minimumMaxScaleDenominator": 10000000000,
       "filterByWmsGetCapabilities": false,
       "filterQuery": [
-        "fq=+(res_format%3awms%20OR%20res_format%3aWMS%20OR%20res_format%3acsv-geo-au%20OR%20res_format%3aaus-geo-csv)"
+        {
+          "fq": "(res_format:wms OR res_format:WMS OR res_format:csv-geo-au OR res_format:aus-geo-csv)"
+        }
       ],
       "url": "http://www.data.gov.au",
       "type": "ckan",
@@ -7131,7 +7133,9 @@
               "name": "Brisbane City Council",
               "url": "https://www.data.brisbane.qld.gov.au/data",
               "filterQuery": [
-                "q=groups%3Dspatial-data"
+                {
+                  "q": "groups:spatial-data"
+                }
               ],
               "csvResourceFormat": "csv",
               "includeCsv": true,
@@ -7147,7 +7151,9 @@
               "minimumMaxScaleDenominator": 10000000000,
               "filterByWmsGetCapabilities": false,
               "filterQuery": [
-                "fq=%28organization%3Alogan-city-council%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+                {
+                  "fq": "(organization:logan-city-council AND(res_format:wms OR res_format:WMS OR res_format:csv-geo-au OR res_format:aus-geo-csv) OR res_format:kml OR res_format:geojson)"
+                }
               ],
               "url": "http://www.data.gov.au",
               "name": "Logan",
@@ -7160,7 +7166,9 @@
               "minimumMaxScaleDenominator": 10000000000,
               "filterByWmsGetCapabilities": false,
               "filterQuery": [
-                "fq=%28organization%3Acity-of-gold-coast%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+                {
+                  "fq": "(organization:city-of-gold-coast AND(res_format:wms OR res_format:WMS OR res_format:csv-geo-au OR res_format:aus-geo-csv) OR res_format:kml OR res_format:geojson)"
+                }
               ],
               "url": "http://www.data.gov.au",
               "name": "Gold Coast",
@@ -7173,7 +7181,9 @@
               "minimumMaxScaleDenominator": 10000000000,
               "filterByWmsGetCapabilities": false,
               "filterQuery": [
-                "fq=%28organization%3Anoosa-shire-council%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+                {
+                  "fq": "(organization:noosa-shire-council AND(res_format:wms OR res_format:WMS OR res_format:csv-geo-au OR res_format:aus-geo-csv) OR res_format:kml OR res_format:geojson)"
+                }
               ],
               "url": "http://www.data.gov.au",
               "name": "Noosa",
@@ -7192,7 +7202,9 @@
               "minimumMaxScaleDenominator": 10000000000,
               "filterByWmsGetCapabilities": false,
               "filterQuery": [
-                "fq=+(organization%3acity-of-onkaparinga%20AND%28res_format%3ageojson%20OR%20res_format%3aGeoJSON%20OR%20res_format%3acsv-geo-au%20OR%20res_format%3aaus-geo-csv%29)"
+                {
+                  "fq": "(organization:city-of-onkaparinga AND(res_format:geojson OR res_format:GeoJSON OR res_format:csv-geo-au OR res_format:aus-geo-csv))"
+                }
               ],
               "url": "https://data.sa.gov.au/data",
               "name": "Onkaparinga",
@@ -7207,7 +7219,9 @@
               "minimumMaxScaleDenominator": 10000000000,
               "filterByWmsGetCapabilities": false,
               "filterQuery": [
-                "fq=+(organization%3acity-of-burnside-local-council%20AND%28res_format%3ageojson%20OR%20res_format%3aGeoJSON%20OR%20res_format%3acsv-geo-au%20OR%20res_format%3aaus-geo-csv%29)"
+                {
+                  "fq": "(organization:city-of-burnside-local-council AND(res_format:geojson OR res_format:GeoJSON OR res_format:csv-geo-au OR res_format:aus-geo-csv))"
+                }
               ],
               "url": "https://data.sa.gov.au/data",
               "name": "Burnside",
@@ -7222,7 +7236,9 @@
               "minimumMaxScaleDenominator": 10000000000,
               "filterByWmsGetCapabilities": false,
               "filterQuery": [
-                "fq=+(organization%3acity-of-playford%20AND%28res_format%3ageojson%20OR%20res_format%3aGeoJSON%20OR%20res_format%3acsv-geo-au%20OR%20res_format%3aaus-geo-csv%29)"
+                {
+                  "fq": "(organization:city-of-playford AND(res_format:geojson OR res_format:GeoJSON OR res_format:csv-geo-au OR res_format:aus-geo-csv))"
+                }
               ],
               "url": "https://data.sa.gov.au/data",
               "name": "Playford",
@@ -7237,7 +7253,9 @@
               "minimumMaxScaleDenominator": 10000000000,
               "filterByWmsGetCapabilities": false,
               "filterQuery": [
-                "fq=+(organization%3aport-adelaide-enfield-council%20AND%28res_format%3ageojson%20OR%20res_format%3aGeoJSON%20OR%20res_format%3acsv-geo-au%20OR%20res_format%3aaus-geo-csv%29)"
+                {
+                  "fq": "(organization:port-adelaide-enfield-council AND(res_format:geojson OR res_format:GeoJSON OR res_format:csv-geo-au OR res_format:aus-geo-csv))"
+                }
               ],
               "url": "https://data.sa.gov.au/data",
               "name": "Port Adelaide Enfield",
@@ -7252,7 +7270,9 @@
               "minimumMaxScaleDenominator": 10000000000,
               "filterByWmsGetCapabilities": false,
               "filterQuery": [
-                "fq=+(organization%3acity-of-salisbury-council%20AND%28res_format%3ageojson%20OR%20res_format%3aGeoJSON%20OR%20res_format%3acsv-geo-au%20OR%20res_format%3aaus-geo-csv%29)"
+                {
+                  "fq": "(organization:city-of-salisbury-council AND(res_format:geojson OR res_format:GeoJSON OR res_format:csv-geo-au OR res_format:aus-geo-csv))"
+                }
               ],
               "url": "https://data.sa.gov.au/data",
               "name": "Salisbury",
@@ -7267,7 +7287,9 @@
               "minimumMaxScaleDenominator": 10000000000,
               "filterByWmsGetCapabilities": false,
               "filterQuery": [
-                "fq=+(organization%3aadelaide-city-council%20AND%28res_format%3ageojson%20OR%20res_format%3aGeoJSON%20OR%20res_format%3acsv-geo-au%20OR%20res_format%3aaus-geo-csv%29)"
+                {
+                  "fq": "(organization:adelaide-city-council AND(res_format:geojson OR res_format:GeoJSON OR res_format:csv-geo-au OR res_format:aus-geo-csv))"
+                }
               ],
               "url": "https://data.sa.gov.au/data",
               "name": "Adelaide",
@@ -7288,7 +7310,9 @@
               "minimumMaxScaleDenominator": 10000000000,
               "filterByWmsGetCapabilities": false,
               "filterQuery": [
-                "fq=%28organization%3Acity-of-hobart%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+                {
+                  "fq": "(organization:city-of-hobart AND(res_format:wms OR res_format:WMS OR res_format:csv-geo-au OR res_format:aus-geo-csv) OR res_format:kml OR res_format:geojson)"
+                }
               ],
               "url": "http://www.data.gov.au",
               "name": "Hobart",
@@ -7301,7 +7325,9 @@
               "minimumMaxScaleDenominator": 10000000000,
               "filterByWmsGetCapabilities": false,
               "filterQuery": [
-                "fq=%28organization%3Agcc%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+                {
+                  "fq": "(organization:gcc AND(res_format:wms OR res_format:WMS OR res_format:csv-geo-au OR res_format:aus-geo-csv) OR res_format:kml OR res_format:geojson)"
+                }
               ],
               "url": "http://www.data.gov.au",
               "name": "Glenorchy",
@@ -7314,7 +7340,9 @@
               "minimumMaxScaleDenominator": 10000000000,
               "filterByWmsGetCapabilities": false,
               "filterQuery": [
-                "fq=%28organization%3Acityoflaunceston%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+                {
+                  "fq": "(organization:cityoflaunceston AND(res_format:wms OR res_format:WMS OR res_format:csv-geo-au OR res_format:aus-geo-csv) OR res_format:kml OR res_format:geojson)"
+                }
               ],
               "url": "http://www.data.gov.au",
               "name": "Launceston",
@@ -7331,7 +7359,9 @@
           "items": [
             {
               "filterQuery": [
-                "fq=+(organization%3acity-of-swan%20AND%28res_format%3awms%20OR%20res_format%3aWMS%20OR%20res_format%3acsv-geo-au%20OR%20res_format%3aaus-geo-csv%29)"
+                {
+                  "fq": "(organization:city-of-swan AND(res_format:wms OR res_format:WMS OR res_format:csv-geo-au OR res_format:aus-geo-csv))"
+                }
               ],
               "url": "http://catalogue.beta.data.wa.gov.au",
               "name": "Swan",
@@ -7362,7 +7392,9 @@
               "minimumMaxScaleDenominator": 10000000000,
               "filterByWmsGetCapabilities": false,
               "filterQuery": [
-                "fq=%28organization%3Acity-of-greater-dandenong%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+                {
+                  "fq": "(organization:city-of-greater-dandenong AND(res_format:wms OR res_format:WMS OR res_format:csv-geo-au OR res_format:aus-geo-csv) OR res_format:kml OR res_format:geojson)"
+                }
               ],
               "url": "http://www.data.gov.au",
               "name": "Greater Dandenong",
@@ -7375,7 +7407,9 @@
               "minimumMaxScaleDenominator": 10000000000,
               "filterByWmsGetCapabilities": false,
               "filterQuery": [
-                "fq=%28organization%3Asurf-coast-shire-council%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+                {
+                  "fq": "(organization:surf-coast-shire-council AND(res_format:wms OR res_format:WMS OR res_format:csv-geo-au OR res_format:aus-geo-csv) OR res_format:kml OR res_format:geojson)"
+                }
               ],
               "url": "http://www.data.gov.au",
               "name": "Surf Coast",
@@ -7388,7 +7422,9 @@
               "minimumMaxScaleDenominator": 10000000000,
               "filterByWmsGetCapabilities": false,
               "filterQuery": [
-                "fq=%28organization%3Acardinia-shire-council%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+                {
+                  "fq": "(organization:cardinia-shire-council AND(res_format:wms OR res_format:WMS OR res_format:csv-geo-au OR res_format:aus-geo-csv) OR res_format:kml OR res_format:geojson)"
+                }
               ],
               "url": "http://www.data.gov.au",
               "name": "Cardinia",
@@ -7401,7 +7437,9 @@
               "minimumMaxScaleDenominator": 10000000000,
               "filterByWmsGetCapabilities": false,
               "filterQuery": [
-                "fq=%28organization%3Asouthern-grampians-shire-council%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+                {
+                  "fq": "(organization:southern-grampians-shire-council AND(res_format:wms OR res_format:WMS OR res_format:csv-geo-au OR res_format:aus-geo-csv) OR res_format:kml OR res_format:geojson)"
+                }
               ],
               "url": "http://www.data.gov.au",
               "name": "Southern Grampians",
@@ -7414,7 +7452,9 @@
               "minimumMaxScaleDenominator": 10000000000,
               "filterByWmsGetCapabilities": false,
               "filterQuery": [
-                "fq=%28organization%3Acity-of-casey%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+                {
+                  "fq": "(organization:city-of-casey AND(res_format:wms OR res_format:WMS OR res_format:csv-geo-au OR res_format:aus-geo-csv) OR res_format:kml OR res_format:geojson)"
+                }
               ],
               "url": "http://www.data.gov.au",
               "name": "Casey",
@@ -7427,7 +7467,9 @@
               "minimumMaxScaleDenominator": 10000000000,
               "filterByWmsGetCapabilities": false,
               "filterQuery": [
-                "fq=%28organization%3Acity-of-greater-bendigo%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+                {
+                  "fq": "(organization:city-of-greater-bendigo AND(res_format:wms OR res_format:WMS OR res_format:csv-geo-au OR res_format:aus-geo-csv) OR res_format:kml OR res_format:geojson)"
+                }
               ],
               "url": "http://www.data.gov.au",
               "name": "Greater Bendigo",
@@ -7440,7 +7482,9 @@
               "minimumMaxScaleDenominator": 10000000000,
               "filterByWmsGetCapabilities": false,
               "filterQuery": [
-                "fq=%28organization%3Ayarriambiack-shire-council%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+                {
+                  "fq": "(organization:yarriambiack-shire-council AND(res_format:wms OR res_format:WMS OR res_format:csv-geo-au OR res_format:aus-geo-csv) OR res_format:kml OR res_format:geojson)"
+                }
               ],
               "url": "http://www.data.gov.au",
               "name": "Yarriambiack",
@@ -7453,7 +7497,9 @@
               "minimumMaxScaleDenominator": 10000000000,
               "filterByWmsGetCapabilities": false,
               "filterQuery": [
-                "fq=%28organization%3Ahorsham-rural-city-council%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+                {
+                  "fq": "(organization:horsham-rural-city-council AND(res_format:wms OR res_format:WMS OR res_format:csv-geo-au OR res_format:aus-geo-csv) OR res_format:kml OR res_format:geojson)"
+                }
               ],
               "url": "http://www.data.gov.au",
               "name": "Horsham",
@@ -7466,7 +7512,9 @@
               "minimumMaxScaleDenominator": 10000000000,
               "filterByWmsGetCapabilities": false,
               "filterQuery": [
-                "fq=%28organization%3Ahindmarsh-shire-council%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+                {
+                  "fq": "(organization:hindmarsh-shire-council AND(res_format:wms OR res_format:WMS OR res_format:csv-geo-au OR res_format:aus-geo-csv) OR res_format:kml OR res_format:geojson)"
+                }
               ],
               "url": "http://www.data.gov.au",
               "name": "Hindmarsh",
@@ -7479,7 +7527,9 @@
               "minimumMaxScaleDenominator": 10000000000,
               "filterByWmsGetCapabilities": false,
               "filterQuery": [
-                "fq=%28organization%3Aloddon-shire-council%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+                {
+                  "fq": "(organization:loddon-shire-council AND(res_format:wms OR res_format:WMS OR res_format:csv-geo-au OR res_format:aus-geo-csv) OR res_format:kml OR res_format:geojson)"
+                }
               ],
               "url": "http://www.data.gov.au",
               "name": "Loddon",
@@ -7492,7 +7542,9 @@
               "minimumMaxScaleDenominator": 10000000000,
               "filterByWmsGetCapabilities": false,
               "filterQuery": [
-                "fq=%28organization%3Awest-wimmera-shire-council%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+                {
+                  "fq": "(organization:west-wimmera-shire-council AND(res_format:wms OR res_format:WMS OR res_format:csv-geo-au OR res_format:aus-geo-csv) OR res_format:kml OR res_format:geojson)"
+                }
               ],
               "url": "http://www.data.gov.au",
               "name": "West Wimmera",
@@ -7505,7 +7557,9 @@
               "minimumMaxScaleDenominator": 10000000000,
               "filterByWmsGetCapabilities": false,
               "filterQuery": [
-                "fq=%28organization%3Aalpine-shire-council%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+                {
+                  "fq": "(organization:alpine-shire-council AND(res_format:wms OR res_format:WMS OR res_format:csv-geo-au OR res_format:aus-geo-csv) OR res_format:kml OR res_format:geojson)"
+                }
               ],
               "url": "http://www.data.gov.au",
               "name": "Alpine",
@@ -7518,7 +7572,9 @@
               "minimumMaxScaleDenominator": 10000000000,
               "filterByWmsGetCapabilities": false,
               "filterQuery": [
-                "fq=%28organization%3Awww-mitchellshirecouncil-vic-gov-au%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+                {
+                  "fq": "(organization:www-mitchellshirecouncil-vic-gov-au AND(res_format:wms OR res_format:WMS OR res_format:csv-geo-au OR res_format:aus-geo-csv) OR res_format:kml OR res_format:geojson)"
+                }
               ],
               "url": "http://www.data.gov.au",
               "name": "Mitchell",
@@ -7531,7 +7587,9 @@
               "minimumMaxScaleDenominator": 10000000000,
               "filterByWmsGetCapabilities": false,
               "filterQuery": [
-                "fq=%28organization%3Amildura-rural-city-council%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+                {
+                  "fq": "(organization:mildura-rural-city-council AND(res_format:wms OR res_format:WMS OR res_format:csv-geo-au OR res_format:aus-geo-csv) OR res_format:kml OR res_format:geojson)"
+                }
               ],
               "url": "http://www.data.gov.au",
               "name": "Mildura",
@@ -7544,7 +7602,9 @@
               "minimumMaxScaleDenominator": 10000000000,
               "filterByWmsGetCapabilities": false,
               "filterQuery": [
-                "fq=%28organization%3Acity-of-greater-geelong%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+                {
+                  "fq": "(organization:city-of-greater-geelong AND(res_format:wms OR res_format:WMS OR res_format:csv-geo-au OR res_format:aus-geo-csv) OR res_format:kml OR res_format:geojson)"
+                }
               ],
               "url": "http://www.data.gov.au",
               "name": "Greater Geelong",
@@ -7557,7 +7617,9 @@
               "minimumMaxScaleDenominator": 10000000000,
               "filterByWmsGetCapabilities": false,
               "filterQuery": [
-                "fq=%28organization%3Ahobsons-bay-city-council%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+                {
+                  "fq": "(organization:hobsons-bay-city-council AND(res_format:wms OR res_format:WMS OR res_format:csv-geo-au OR res_format:aus-geo-csv) OR res_format:kml OR res_format:geojson)"
+                }
               ],
               "url": "http://www.data.gov.au",
               "name": "Hobsons Bay",
@@ -7570,7 +7632,9 @@
               "minimumMaxScaleDenominator": 10000000000,
               "filterByWmsGetCapabilities": false,
               "filterQuery": [
-                "fq=%28organization%3Amacedon-ranges-shire-council%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+                {
+                  "fq": "(organization:macedon-ranges-shire-council AND(res_format:wms OR res_format:WMS OR res_format:csv-geo-au OR res_format:aus-geo-csv) OR res_format:kml OR res_format:geojson)"
+                }
               ],
               "url": "http://www.data.gov.au",
               "name": "Macedon Ranges",
@@ -7583,7 +7647,9 @@
               "minimumMaxScaleDenominator": 10000000000,
               "filterByWmsGetCapabilities": false,
               "filterQuery": [
-                "fq=%28organization%3Acorangamite-shire-council%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+                {
+                  "fq": "(organization:corangamite-shire-council AND(res_format:wms OR res_format:WMS OR res_format:csv-geo-au OR res_format:aus-geo-csv) OR res_format:kml OR res_format:geojson)"
+                }
               ],
               "url": "http://www.data.gov.au",
               "name": "Corangamite",
@@ -7596,7 +7662,9 @@
               "minimumMaxScaleDenominator": 10000000000,
               "filterByWmsGetCapabilities": false,
               "filterQuery": [
-                "fq=%28organization%3Acity-of-ballarat%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+                {
+                  "fq": "(organization:city-of-ballarat AND(res_format:wms OR res_format:WMS OR res_format:csv-geo-au OR res_format:aus-geo-csv) OR res_format:kml OR res_format:geojson)"
+                }
               ],
               "url": "http://www.data.gov.au",
               "name": "Ballarat",
@@ -7609,7 +7677,9 @@
               "minimumMaxScaleDenominator": 10000000000,
               "filterByWmsGetCapabilities": false,
               "filterQuery": [
-                "fq=%28organization%3Agolden-plains-shire-council%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+                {
+                  "fq": "(organization:golden-plains-shire-council AND(res_format:wms OR res_format:WMS OR res_format:csv-geo-au OR res_format:aus-geo-csv) OR res_format:kml OR res_format:geojson)"
+                }
               ],
               "url": "http://www.data.gov.au",
               "name": "Golden Plains",
@@ -7622,7 +7692,9 @@
               "minimumMaxScaleDenominator": 10000000000,
               "filterByWmsGetCapabilities": false,
               "filterQuery": [
-                "fq=%28organization%3Anillumbik-shire-council%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+                {
+                  "fq": "(organization:nillumbik-shire-council AND(res_format:wms OR res_format:WMS OR res_format:csv-geo-au OR res_format:aus-geo-csv) OR res_format:kml OR res_format:geojson)"
+                }
               ],
               "url": "http://www.data.gov.au",
               "name": "Nillumbik",
@@ -7635,7 +7707,9 @@
               "minimumMaxScaleDenominator": 10000000000,
               "filterByWmsGetCapabilities": false,
               "filterQuery": [
-                "fq=%28organization%3Aglenelg-shire-council%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+                {
+                  "fq": "(organization:glenelg-shire-council AND(res_format:wms OR res_format:WMS OR res_format:csv-geo-au OR res_format:aus-geo-csv) OR res_format:kml OR res_format:geojson)"
+                }
               ],
               "url": "http://www.data.gov.au",
               "name": "Glenelg",
@@ -7648,7 +7722,9 @@
               "minimumMaxScaleDenominator": 10000000000,
               "filterByWmsGetCapabilities": false,
               "filterQuery": [
-                "fq=%28organization%3Acolac-otway-shire%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+                {
+                  "fq": "(organization:colac-otway-shire AND(res_format:wms OR res_format:WMS OR res_format:csv-geo-au OR res_format:aus-geo-csv) OR res_format:kml OR res_format:geojson)"
+                }
               ],
               "url": "http://www.data.gov.au",
               "name": "Colac-Otway",
@@ -7661,7 +7737,9 @@
               "minimumMaxScaleDenominator": 10000000000,
               "filterByWmsGetCapabilities": false,
               "filterQuery": [
-                "fq=%28organization%3Awyndham-city-council%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+                {
+                  "fq": "(organization:wyndham-city-council AND(res_format:wms OR res_format:WMS OR res_format:csv-geo-au OR res_format:aus-geo-csv) OR res_format:kml OR res_format:geojson)"
+                }
               ],
               "url": "http://www.data.gov.au",
               "name": "Wyndham",
@@ -7674,7 +7752,9 @@
               "minimumMaxScaleDenominator": 10000000000,
               "filterByWmsGetCapabilities": false,
               "filterQuery": [
-                "fq=%28organization%3Anorthern-grampians-shire-council%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+                {
+                  "fq": "(organization:northern-grampians-shire-council AND(res_format:wms OR res_format:WMS OR res_format:csv-geo-au OR res_format:aus-geo-csv) OR res_format:kml OR res_format:geojson)"
+                }
               ],
               "url": "http://www.data.gov.au",
               "name": "Northern Grampians",
@@ -7687,7 +7767,9 @@
               "minimumMaxScaleDenominator": 10000000000,
               "filterByWmsGetCapabilities": false,
               "filterQuery": [
-                "fq=%28organization%3Amanningham-city-council%20AND%28res_format%3Awms%20OR%20res_format%3AWMS%20OR%20res_format%3Acsv-geo-au%20OR%20res_format%3Aaus-geo-csv%29%20OR%20res_format%3Akml%20OR%20res%29"
+                {
+                  "fq": "(organization:manningham-city-council AND(res_format:wms OR res_format:WMS OR res_format:csv-geo-au OR res_format:aus-geo-csv) OR res_format:kml OR res_format:geojson)"
+                }
               ],
               "url": "http://www.data.gov.au",
               "name": "Manningham",
