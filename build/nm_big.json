@@ -5139,7 +5139,7 @@
               "items": [
                 {
                   "type": "esri-mapServer",
-                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/ASGS2016/SA1/MapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/ASGS2016/ASGS2016BoundariesOnline/MapServer/3",
                   "name": "Statistical area level 1 (SA1)",
                   "info": [
                     {
@@ -5154,7 +5154,7 @@
                 },
                 {
                   "type": "esri-mapServer",
-                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/ASGS2016/SA2/MapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/ASGS2016/ASGS2016BoundariesOnline/MapServer/4",
                   "name": "Statistical area level 2 (SA2)",
                   "info": [
                     {
@@ -5169,7 +5169,7 @@
                 },
                 {
                   "type": "esri-mapServer",
-                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/ASGS2016/SA3/MapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/ASGS2016/ASGS2016BoundariesOnline/MapServer/5",
                   "name": "Statistical area level 3 (SA3)",
                   "info": [
                     {
@@ -5184,7 +5184,7 @@
                 },
                 {
                   "type": "esri-mapServer",
-                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/ASGS2016/SA4/MapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/ASGS2016/ASGS2016BoundariesOnline/MapServer/6",
                   "name": "Statistical area level 4 (SA4)",
                   "info": [
                     {
@@ -5199,7 +5199,7 @@
                 },
                 {
                   "type": "esri-mapServer",
-                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/ASGS2016/GCCSA/MapServer",
+                  "url": "http://censusdata.abs.gov.au/arcgis/rest/services/ASGS2016/ASGS2016BoundariesOnline/MapServer/1",
                   "name": "Greater capital city statistical areas (GCCSA)",
                   "info": [
                     {
