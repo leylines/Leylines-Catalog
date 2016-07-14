@@ -26,7 +26,8 @@
             <%- include('includes/censusdata', { name: 'Suburbs (SSC)', layer: '2001_SSC' }) %>,
             <%- include('includes/censusdata', { name: 'Statistical subdivision (SSD)', layer: '2001_SSD' }) %>,
             <%- include('includes/censusdata', { name: 'Urban centres and localities (UCL)', layer: '2001_UCL' }) %>,
-    ]},
+        ]
+    },
     {   
         type: 'group',
         name: '2006',
@@ -55,8 +56,8 @@
             <%- include('includes/censusdata', { name: 'Statistical subdivisions (SSD)', layer: '2006_SSD' }) %>,
             <%- include('includes/censusdata', { name: 'Urban centres and localities (UCL)', layer: '2006_UCL' }) %>,        
         ]
-        },
-        {   
+    },
+    {   
         type: 'group',
         name: '2011',
         items: [
@@ -88,6 +89,17 @@
             <%- include('includes/censusdata', { name: 'Local government areas 2012 (LGA)', layer: '2012_LGA' }) %>,
             <%- include('includes/censusdata', { name: 'Local government areas 2013 (LGA)', layer: '2013_LGA' }) %>,
             <%- include('includes/censusdata', { name: 'Local government areas 2014 (LGA)', layer: '2014_LGA' }) %>,
+        ]
+    },
+    {
+        type: 'group',
+        name: '2016',
+        items: [
+            <%- include('includes/censusdata2016', { name: 'Statistical area level 1 (SA1)', layer: '3' }) %>,
+            <%- include('includes/censusdata2016', { name: 'Statistical area level 2 (SA2)', layer: '4' }) %>,
+            <%- include('includes/censusdata2016', { name: 'Statistical area level 3 (SA3)', layer: '5' }) %>,
+            <%- include('includes/censusdata2016', { name: 'Statistical area level 4 (SA4)', layer: '6' }) %>,
+            <%- include('includes/censusdata2016', { name: 'Greater capital city statistical areas (GCCSA)', layer: '1' }) %>
         ]
     }
     ]
