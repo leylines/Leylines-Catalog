@@ -30,13 +30,32 @@ gulp.task('release', ['render-datasource-templates',/*'make-editor-schema', 'val
 gulp.task('watch', ['watch-datasource-templates']);
 gulp.task('default', ['build']);
 
-gulp.task('list-ga-services', function(done) {
-    var exec = require('child_process').exec;
-    exec('./list_services.sh', function (err, stdout, stderr) {
-        if (stderr)
-            console.log(stderr);
-        done(err);
-    });
+gulp.task('list-ga-services', ['render-datasource-templates'], function() {
+    const catalog = require('./build/nm.json');
+
+    const urls = {};
+    function findGAUrls(list) {
+        for (var i = 0; i < list.length; ++i) {
+            const item = list[i];
+            const url = item.url;
+            if (url && url.indexOf('ga.gov.au') >= 0) {
+                urls[url] = true;
+            }
+
+            if (item.items) {
+                findGAUrls(item.items);
+            }
+        }
+    }
+
+    findGAUrls(catalog.catalog);
+
+    const urlList = Object.keys(urls);
+    urlList.sort();
+
+    fs.writeFileSync('./build/ga_services.txt',
+        'These Geoscience Australia services are currently being referenced in the catalog.\n\n' +
+        urlList.join('\n'));
 });
 
 // Generate new schema for editor, and copy it over whatever version came with editor.
@@ -98,7 +117,7 @@ gulp.task('validate', ['merge-datasources', 'make-validator-schema'], function()
 
     "name": "<%= name %>"
  */
-gulp.task('render-datasource-templates', function() {
+gulp.task('render-datasource-templates', ['update-lga-filter'], function() {
     var ejs = require('ejs');
     var JSON5 = require('json5');
     try {
@@ -142,4 +161,22 @@ gulp.task('render-datasource-templates', function() {
 
 gulp.task('watch-datasource-templates', ['render-datasource-templates'], function() {
     return gulp.watch(['datasources/**/*.ejs','datasources/*.json'], watchOptions, [ 'render-datasource-templates' ]);
+});
+
+// Regenerate the anti-LGA filter in datasources/includes/lga_filter.ejs
+// Needs to be run manually every now and then.
+gulp.task('update-lga-filter', function() {
+    var requestp = require('request-promise');
+    console.log('Contacting data.gov.au')
+    return requestp({
+        url: 'https://data.gov.au/api/3/action/organization_list?all_fields=true',
+        json: true
+    }).then(function(results) {
+        var filterFile = 'datasources/includes/lga_filter.ejs';
+        var r = results.result.filter(org => org.title.match(/city|shire/i)).map(org => 'organization:' + org.name);
+        fs.writeFileSync(filterFile, '<%# Generated automatically by gulpfile.js %>' + r.join(' OR '));
+        console.log('Updated filter from data.gov.au in ' + filterFile);
+    }).catch(function(e) {
+        console.error(e.message);
+    });
 });
