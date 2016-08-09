@@ -2,6 +2,9 @@
 Change Log
 ==========
 
+### 2016-08-15
+* Update ACT catalog with new layer descriptions.
+
 ### 2016-07-15
 
 * Add 62 layers from the ACT Government.
