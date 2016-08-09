@@ -2,8 +2,9 @@
 Change Log
 ==========
 
-### 2016-08-15
+### 2016-08-09
 * Update ACT catalog with new layer descriptions.
+* Update type of Sunshine Coast Council to esri-group.
 
 ### 2016-07-15
 
