@@ -2,10 +2,12 @@
 Change Log
 ==========
 
-### 2016-09-09
+### 2016-09-15
+
 * Update 4 GA layers that have moved.
 
 ### 2016-08-09
+
 * Update ACT catalog with new layer descriptions.
 * Update type of Sunshine Coast Council to esri-group.
 
