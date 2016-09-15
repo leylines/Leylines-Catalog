@@ -518,7 +518,7 @@
               ]
             },
             {
-              "url": "http://www.ga.gov.au/gis/rest/services/earth_observation/Landcover_WM/MapServer",
+              "url": "http://services.ga.gov.au/gis/rest/services/Landcover_WM/MapServer",
               "type": "esri-mapServer",
               "rectangle": [
                 110,
@@ -528,7 +528,6 @@
               ],
               "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
               "name": "Land Cover",
-              "legendUrl": "http://www.ga.gov.au/gis/services/earth_observation/Landcover_WM/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=0&width=200",
               "info": [
                 {
                   "name": "Licence",
@@ -550,16 +549,16 @@
               ]
             },
             {
-              "url": "http://www.ga.gov.au/gis/rest/services/earth_science/GA_Surface_Geology_of_Australia_WM/MapServer",
+              "url": "http://services.ga.gov.au/gis/rest/services/GA_Surface_Geology/MapServer",
               "type": "esri-mapServer",
-              "rectangle": [
-                105.93045,
-                -43.7405,
-                162.09711,
-                -7.92768
-              ],
               "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
               "name": "Surface Geology",
+              "rectangle": [
+                106,
+                -52,
+                172,
+                -8
+              ],
               "info": [
                 {
                   "name": "Licence",
@@ -570,7 +569,7 @@
             {
               "dataUrlType": "none",
               "layers": "earthquakeHazard,hazardContours",
-              "url": "http://www.ga.gov.au/gis/rest/services/hazards/EarthquakeHazard/MapServer",
+              "url": "http://services.ga.gov.au/gis/rest/services/Earthquake_Hazard/MapServer",
               "type": "esri-mapServer",
               "rectangle": [
                 106,
@@ -580,7 +579,6 @@
               ],
               "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
               "name": "Earthquake Hazard",
-              "legendUrl": "http://www.ga.gov.au/gis/server/capabilities/Earthquake_hazard_legend.jpg",
               "info": [
                 {
                   "name": "Licence",
@@ -589,9 +587,9 @@
               ]
             },
             {
-              "url": "http://www.ga.gov.au/gis/services/earth_science/Scanned_250K_Geological_Map_Index/MapServer/WMSServer",
+              "url": "http://services.ga.gov.au/gis/rest/services/Scanned_250k_Geological_Map_Index/MapServer",
               "layers": "Scanned_250K_Geological_Map_Index",
-              "type": "wms",
+              "type": "esri-mapServer",
               "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
               "name": "Scanned 1:250K Geological Maps",
               "opacity": 1
@@ -2252,11 +2250,10 @@
           "items": [
             {
               "layers": "0",
-              "url": "http://www.ga.gov.au/gis/rest/services/topography/National_Waste_Management_Facilities/MapServer",
+              "url": "http://services.ga.gov.au/gis/rest/services/Waste_Management_Facilities/MapServer",
               "type": "esri-mapServer",
               "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
               "name": "Waste Management Facilities",
-              "legendUrl": "http://www.ga.gov.au/gis/server/capabilities/National_Waste_Management_Facilities_Legend.png",
               "info": [
                 {
                   "name": "Licence",
@@ -3775,7 +3772,7 @@
       "filterByWmsGetCapabilities": false,
       "filterQuery": [
         {
-          "fq": "+(res_format:wms OR res_format:WMS OR res_format:csv-geo-au OR res_format:aus-geo-csv) -(organization:alpine-shire-council OR organization:brisbane-city-council OR organization:cardinia-shire-council OR organization:city-of-ballarat OR organization:city-of-boroondara OR organization:city-of-casey OR organization:city-of-gold-coast OR organization:city-of-greater-bendigo OR organization:city-of-greater-dandenong OR organization:city-of-greater-geelong OR organization:city-of-hobart OR organization:cityoflaunceston OR organization:cityofmelbourne OR organization:colac-otway-shire OR organization:corangamite-shire-council OR organization:gcc OR organization:glenelg-shire-council OR organization:golden-plains-shire-council OR organization:hindmarsh-shire-council OR organization:hobsons-bay-city-council OR organization:horsham-rural-city-council OR organization:loddon-shire-council OR organization:logan-city-council OR organization:macedon-ranges-shire-council OR organization:manningham-city-council OR organization:mildura-rural-city-council OR organization:moyne-shire-council OR organization:nillumbik-shire-council OR organization:noosa-shire-council OR organization:northern-grampians-shire-council OR organization:southern-grampians-shire-council OR organization:surf-coast-shire-council OR organization:warrnambool-city-council OR organization:west-wimmera-shire-council OR organization:wodonga-city-council OR organization:www-mitchellshirecouncil-vic-gov-au OR organization:wyndham-city-council OR organization:yarriambiack-shire-council)"
+          "fq": "+(res_format:wms OR res_format:WMS OR res_format:csv-geo-au OR res_format:aus-geo-csv) -(organization:alpine-shire-council OR organization:brisbane-city-council OR organization:cardinia-shire-council OR organization:city-of-ballarat OR organization:city-of-boroondara OR organization:city-of-casey OR organization:city-of-gold-coast OR organization:city-of-greater-bendigo OR organization:city-of-greater-dandenong OR organization:city-of-greater-geelong OR organization:city-of-hobart OR organization:cityoflaunceston OR organization:cityofmelbourne OR organization:colac-otway-shire OR organization:corangamite-shire-council OR organization:gcc OR organization:glenelg-shire-council OR organization:golden-plains-shire-council OR organization:hindmarsh-shire-council OR organization:hobsons-bay-city-council OR organization:horsham-rural-city-council OR organization:launceston-city-council OR organization:loddon-shire-council OR organization:logan-city-council OR organization:macedon-ranges-shire-council OR organization:manningham-city-council OR organization:mildura-rural-city-council OR organization:moyne-shire-council OR organization:nillumbik-shire-council OR organization:noosa-shire-council OR organization:northern-grampians-shire-council OR organization:southern-grampians-shire-council OR organization:surf-coast-shire-council OR organization:warrnambool-city-council OR organization:west-wimmera-shire-council OR organization:wodonga-city-council OR organization:www-mitchellshirecouncil-vic-gov-au OR organization:wyndham-city-council OR organization:yarriambiack-shire-council)"
         }
       ],
       "url": "http://www.data.gov.au",
