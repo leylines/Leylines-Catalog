@@ -5,6 +5,7 @@
 var fs = require('fs');
 var path = require('path');
 var gulp = require('gulp');
+var runSequence = require('run-sequence');
 //var generateSchema = require('generate-terriajs-schema');
 //var validateSchema = require('terriajs-schema');
 
@@ -24,8 +25,11 @@ if (!fs.existsSync(workDir)) {
     fs.mkdirSync(workDir);
 }
 
-gulp.task('build', ['update-lga-filter', 'render-datasource-templates', 'list-ga-services']);
-gulp.task('release', ['update-lga-filter', 'render-datasource-templates',/*'make-editor-schema', 'validate'*/]);
+gulp.task('build', function(done) {
+    runSequence('update-lga-filter', 'render-datasource-templates', 'list-ga-services', done);
+});
+gulp.task('release', ['build']);
+//gulp.task('release', ['update-lga-filter', 'render-datasource-templates',/*'make-editor-schema', 'validate'*/]);
 gulp.task('watch', ['update-lga-filter', 'watch-datasource-templates']); // don't watch data.gov.au
 gulp.task('default', ['build']);
 
