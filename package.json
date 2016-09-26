@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "gulp validate",
-    "build": "gulp build"
-    "postinstall": "gulp build",
+    "build": "gulp build",
+    "postinstall": "gulp build"
   },
   "repository": {
     "type": "git",
