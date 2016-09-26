@@ -25,7 +25,7 @@ if (!fs.existsSync(workDir)) {
     fs.mkdirSync(workDir);
 }
 
-gulp.task('build', ['render-datasource-templates', 'list-ga-services']);
+gulp.task('build', ['render-datasource-templates']);
 gulp.task('release', ['render-datasource-templates',/*'make-editor-schema', 'validate'*/]);
 gulp.task('watch', ['watch-datasource-templates']);
 gulp.task('default', ['build']);
