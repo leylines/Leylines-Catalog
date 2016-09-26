@@ -1,0 +1,495 @@
+{
+  "catalog": [
+     {
+	"name": "Sites",
+	"type": "group",
+	"items": [
+	   {
+		"name": "megalithic.co.uk",
+		"type": "group",
+		"items": [
+		   {
+			"name": "Ancient Cross",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"description": "Images from the Pagan past conflict and co-exist with Christian symbolism in the carvings on many early cross shafts. The cross was a Pagan symbol long before it was a Christian one and the familiar cross in a circle is actually an ancient sun disc that has been carved in stone since the Bronze Age. Writhing serpents, ancient gods, foliage, rosettes and sun spirals are all to be found alongside strange interpretations of the crucifixion. Leaning broken by a stile or standing proudly in a churchyard, hidden in a tangled hedgerow or high on a bleak moor, these crosses waymark the passage from Paganism to Christianity.",
+			"url": "http://maps.leylines.ch/api/megalithic/46"
+		   },
+		   {
+			"name": "Ancient Palace",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"url": "http://maps.leylines.ch/api/megalithic/61"
+		   },
+		   {
+			"name": "Ancient Temple",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"url": "http://maps.leylines.ch/api/megalithic/64"
+		   },
+		   {
+			"name": "Ancient Trackway",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"description": "A pre-Roman road or track",
+			"url": "http://maps.leylines.ch/api/megalithic/1"
+		   },
+		   {
+			"name": "Ancient Village or Settlement",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"description": "Included in this category are remains of habitated areas of all sorts, including cattle pens. There is a separate listing for crannogs.",
+			"url": "http://maps.leylines.ch/api/megalithic/2"
+		   },
+		   {
+			"name": "Artificial Mound",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"description": "A man-made mound which is not a burial chamber.",
+			"url": "http://maps.leylines.ch/api/megalithic/3"
+		   },
+		   {
+			"name": "Barrow Cemetery",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"description": "A collection of round barrows, long barrows etc. Usually a sacred area used over thousands of years for burials.",
+			"url": "http://maps.leylines.ch/api/megalithic/4"
+		   },
+		   {
+			"name": "Broch or Nuraghe",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"description": "An Iron Age stone structure, also known as a roundhouse. Built throughout Scotland, concentrated near the coasts, as a defence against raiding parties. The walls are double skinned, providing small rooms and storage areas between the inner and outer walls. Steps were also built in the gap between the walls. Sardinia has a very similar class of structure known as the Nuraghe.",
+			"url": "http://maps.leylines.ch/api/megalithic/5"
+		   },
+		   {
+			"name": "Burial Chamber (Dolmen)",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"description": "A megalithic chambered tomb, with a large flat stone laid on upright ones. Cromlech is a term meaning the same thing, archaic in English but still used in Welsh and Breton languages.",
+			"url": "http://maps.leylines.ch/api/megalithic/6"
+		   },
+		   {
+			"name": "Cairn",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"description": "A mound of stones, often but not always covering a burial site. See the separate category for Round Cairn. This category includes long cairns and other miscellaneous cairns.",
+			"url": "http://maps.leylines.ch/api/megalithic/7"
+		   },
+		   {
+			"name": "Cairn (Clava)",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"url": "http://maps.leylines.ch/api/megalithic/58"
+		   },
+		   {
+			"name": "Carving",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"url": "http://maps.leylines.ch/api/megalithic/30"
+		   },
+		   {
+			"name": "Castro or Chafurdão",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"description": "Castros (s. Castro) are a kind of settlement relatively common in northwestern Spain, composed of a fortified area (quite similar to the Irish or Scottish Stone Forts, but slightly bigger in area) with a multitude of stone round huts inside it. In some later castros the Roman influence may be seen in rectangular/square buildings within the settlement. In Portugal is a type of ancient construction called Chafurdão. It is a type of round house built in stone, very similar with the Iron Age houses of the castros. The big difference is that these constructions usually stand alone. These kind of monuments are found most of the time surrounded by stone walls, and some are strangely very close with rock cut graves. Some theorists believe they are related but it's almost impossible to prove that relationship.",
+			"url": "http://maps.leylines.ch/api/megalithic/48"
+		   },
+		   {
+			"name": "Causewayed Enclosure",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"url": "http://maps.leylines.ch/api/megalithic/47"
+		   },
+		   {
+			"name": "Cave or Rock Shelter",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"description": "A cave with evidence of inhabitation by Palaeolithic (Old Stone Age) Man.",
+			"url": "http://maps.leylines.ch/api/megalithic/35"
+		   },
+		   {
+			"name": "Chambered Cairn",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"url": "http://maps.leylines.ch/api/megalithic/33"
+		   },
+		   {
+			"name": "Chambered Tomb",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"description": "Megalithic tomb usually for multiple burials. Varieties include passage graves, gallery graves, portal dolmens.",
+			"url": "http://maps.leylines.ch/api/megalithic/8"
+		   },
+		   {
+			"name": "Cist",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"url": "http://maps.leylines.ch/api/megalithic/69"
+		   },
+		   {
+			"name": "Class I / Class II Hybrid Pictish Symbol Stone",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"url": "http://maps.leylines.ch/api/megalithic/39"
+		   },
+		   {
+			"name": "Class I Pictish Symbol Stone",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"url": "http://maps.leylines.ch/api/megalithic/40"
+		   },
+		   {
+			"name": "Class II Pictish Symbol Stone",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"url": "http://maps.leylines.ch/api/megalithic/41"
+		   },
+		   {
+			"name": "Class III Pictish Cross Slab",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"url": "http://maps.leylines.ch/api/megalithic/42"
+		   },
+		   {
+			"name": "Court Tomb",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"description": "Irish variant of Burial Chamber.",
+			"url": "http://maps.leylines.ch/api/megalithic/9"
+		   },
+		   {
+			"name": "Crannog",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"description": "Artificial lakeside platform chosen as a settlement site.",
+			"url": "http://maps.leylines.ch/api/megalithic/10"
+		   },
+		   {
+			"name": "Cursus",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"description": "An avenue formed by straight stretches of parallel earthen banks and ditches. The longest, in Dorset, extends nearly 10 km. Found only in Britain.",
+			"url": "http://maps.leylines.ch/api/megalithic/34"
+		   },
+		   {
+			"name": "Early Christian Sculptured Stone",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"url": "http://maps.leylines.ch/api/megalithic/43"
+		   },
+		   {
+			"name": "Henge",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"description": "Roughly circular prehistoric earthwork consisting of a non-defensive ditch and bank with a level plateau in the centre. A henge does not have to contain a stone circle but many do",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"description": "Roughly circular prehistoric earthwork consisting of a non-defensive ditch and bank with a level plateau in the centre. A henge does not have to contain a stone circle but many do.",
+			"url": "http://maps.leylines.ch/api/megalithic/11"
+		   },
+		   {
+			"name": "Hill Figure",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"description": "A chalk-cut figure, unique to the British Isles. Not necessarily prehistoric, but of interest nonetheless.",
+			"url": "http://maps.leylines.ch/api/megalithic/12"
+		   },
+		   {
+			"name": "Hillfort",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"description": "Hilltop enclosure usually thought to be defensive. Most hillforts date from the Iron Age, although some are earlier.",
+			"url": "http://maps.leylines.ch/api/megalithic/13"
+		   },
+		   {
+			"name": "Holed Stone",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"description": "A megalith with a hole in it. These stones are usually associated with legends of magical cures that people who pass through them will benefit from.",
+			"url": "http://maps.leylines.ch/api/megalithic/14"
+		   },
+		   {
+			"name": "Holy Well or Sacred Spring",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"url": "http://maps.leylines.ch/api/megalithic/45"
+		   },
+		   {
+			"name": "Long Barrow",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"description": "Elongated roughly rectangular structure that may contain many burial chambers. Long barrows appear to have been in constant use with burials being added over a period of centuries, the old bones being moved around to accommodate the new interment. It is thought that bones may even have been removed for ritual use, particularly the skulls and leg bones. See also the separate listing for chambered tomb.",
+			"url": "http://maps.leylines.ch/api/megalithic/15"
+		   },
+		   {
+			"name": "Marker Stone",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"description": "Prehistoric stones or other ancient stones (older than 1066) used as boundary or route markers.",
+			"url": "http://maps.leylines.ch/api/megalithic/67"
+		   },
+		   {
+			"name": "Misc. Earthwork",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"url": "http://maps.leylines.ch/api/megalithic/59"
+		   },
+		   {
+			"name": "Modern Stone Circle / Monolith",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"url": "http://maps.leylines.ch/api/megalithic/60"
+		   },
+		   {
+			"name": "Multiple Stone Rows / Avenue",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"description": "Two or more rows of stones arranged in a complex. An avenue is two rows side by side.",
+			"url": "http://maps.leylines.ch/api/megalithic/16"
+		   },
+		   {
+			"name": "Natural Stone / Erratic / Other Natural Feature",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"url": "http://maps.leylines.ch/api/megalithic/36"
+		   },
+		   {
+			"name": "Passage Grave",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"description": "Type of chambered tomb where a passage connects with one or more stone chambers in the centre of a mound.",
+			"url": "http://maps.leylines.ch/api/megalithic/17"
+		   },
+		   {
+			"name": "Polissoir",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"url": "http://maps.leylines.ch/api/megalithic/66"
+		   },
+		   {
+			"name": "Portal Tomb",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"url": "http://maps.leylines.ch/api/megalithic/1050034311"
+		   },
+		   {
+			"name": "Promontory Fort / Cliff Castle",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"url": "http://maps.leylines.ch/api/megalithic/62"
+		   },
+		   {
+			"name": "Pyramid / Mastaba",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"url": "http://maps.leylines.ch/api/megalithic/63"
+		   },
+		   {
+			"name": "Ring Cairn",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"description": "Stone Burial Mound similar to Round Cairn, but with a hole in the centre. See also Clava Cairn.",
+			"url": "http://maps.leylines.ch/api/megalithic/28"
+		   },
+		   {
+			"name": "Rock Art",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"url": "http://maps.leylines.ch/api/megalithic/29"
+		   },
+		   {
+			"name": "Rock Cut Tomb",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"url": "http://maps.leylines.ch/api/megalithic/68"
+		   },
+		   {
+			"name": "Rock Outcrop",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"url": "http://maps.leylines.ch/api/megalithic/37"
+		   },
+		   {
+			"name": "Round Barrow(s)",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"url": "http://maps.leylines.ch/api/megalithic/18"
+		   },
+		   {
+			"name": "Round Cairn",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"description": "Stone Burial Mound similar to Round Barrow, but usually found in areas with thin top soil - the mound is formed by piling boulders into a hemispherical structure.",
+			"url": "http://maps.leylines.ch/api/megalithic/19"
+		   },
+		   {
+			"name": "Sculptured Stone",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"url": "http://maps.leylines.ch/api/megalithic/44"
+		   },
+		   {
+			"name": "Souterrain (Fogou, Earth House)",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"description": "Souterrain is the generic term for an underground prehistoric structure. Known as Earth House in Scotland, and Fogou (pronounced \"foogoo\") in Cornwall. Stone underground tunnel or chamber. Nobody knows what they were used for, though suggestions include food storage, cattle shelter, refuge against attackers and ritual use.",
+			"url": "http://maps.leylines.ch/api/megalithic/20"
+		   },
+		   {
+			"name": "Standing Stone (Menhir)",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"description": "A single standing stone.",
+			"url": "http://maps.leylines.ch/api/megalithic/21"
+		   },
+		   {
+			"name": "Standing Stones",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"description": "A pair, or other arrangement of stones. Three or more in a line are listed separately as stone row or rows.",
+			"url": "http://maps.leylines.ch/api/megalithic/22"
+		   },
+		   {
+			"name": "Stone Circle",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"description": "A ring of stones, sometimes at a henge. Distinct from a cairn circle, which is not a stone circle proper.",
+			"url": "http://maps.leylines.ch/api/megalithic/23"
+		   },
+		   {
+			"name": "Stone Fort or Dun",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"description": "A fortified stone structure. Dun is the gaelic word, as used in Scotland.",
+			"url": "http://maps.leylines.ch/api/megalithic/24"
+		   },
+		   {
+			"name": "Stone Row / Alignment",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"description": "A single row of three or more stones. Some of these can be hundreds of meters long.",
+			"url": "http://maps.leylines.ch/api/megalithic/25"
+		   },
+		   {
+			"name": "Timber Circle",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"url": "http://maps.leylines.ch/api/megalithic/1050034310"
+		   },
+		   {
+			"name": "Turf Maze",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"description": "A maze cut in the grass. Not necessarily prehistoric, but of interest nonetheless.",
+			"url": "http://maps.leylines.ch/api/megalithic/27"
+		   },
+		   {
+			"name": "Vitrified Fort",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"description": "A stone fort (or dun) that has had some of its stones fused together by extremely high temperatures. How these stones came to be fused is a mystery!",
+			"url": "http://maps.leylines.ch/api/megalithic/26"
+		   },
+		   {
+			"name": "Wedge Tomb",
+			"type": "czml",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+			"legendUrl": "http://www.megalithic.co.uk/topics.php?countries=1#type",
+			"url": "http://maps.leylines.ch/api/megalithic/1050034312"
+		   }
+		]
+	   },
+	   {
+		"name": "www.geolines.ru",
+		"type": "group",
+		"items": [
+		   {
+			"name": "Historic Geodesy",
+			"type": "kml",
+			"url": "http://geolines.ru/netcat_files/85/42/h_4ddcdb86cbe82593831cd2b2d9818a9d"
+		   },
+		   {
+			"name": "Chinese Pyramids",
+			"type": "kml",
+			"url": "http://geolines.ru/netcat_files/18/10/h_2bf0d8315b5fd715cc67c7da5c659520"
+		   },
+		   {
+			"name": "Historical Objects",
+			"type": "kml",
+			"url": "http://geolines.ru/netcat_files/85/42/h_0d2328c1a7aa03fbadecb4ae4824f686"
+		   }
+		]
+	   },
+	   {
+		"name": "www.earthenergymap.com",
+		"type": "group",
+		"items": [
+		   {
+			"name": "Dowsing Map",
+			"type": "kml",
+			"url": "http://www.earthenergymap.com/kmz?neLat=88.64771524120391&neLng=180&swLat=38.14319750166776&swLng=-180",
+			"description": "[Earth Energy Map](http://www.earthenergymap.com/)"
+		   }
+		]
+	   }
+	]
+     }
+  ]
+}

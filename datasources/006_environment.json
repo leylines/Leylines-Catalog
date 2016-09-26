@@ -1,0 +1,424 @@
+{
+  "catalog": [
+     {
+	"name": "Environment",
+	"type": "group",
+	"items": [
+	   {
+		"name": "Magnetism",
+		"type": "group",
+		"items": [
+		   {
+			"name": "Shift North Pole",
+			"description": "Shift North Pole",
+			"type": "czml",
+			"url": "http://maps.leylines.ch/api/poles/pole_north/white"
+		   },
+		   {
+			"name": "Shift South Pole",
+			"description": "Shift South Pole",
+			"type": "czml",
+			"url": "http://maps.leylines.ch/api/poles/pole_south/white"
+		   },
+		   {
+			"name": "Earth Magnetic Anomaly Grid",
+			"description": "EMAG2: Earth Magnetic Anomaly Grid (2-arc-minute resolution) Magnetic anomaly maps provide insight into the subsurface structure and composition of the Earth's crust. Anomalies trending parallel to the isochrons (lines of equal age) in the oceans reveal ...",
+			"dataCustodian": "http://maps.ngdc.noaa.gov/",
+			"type": "wms",
+			"url": "http://maps.ngdc.noaa.gov/arcgis/services/web_mercator/emag2/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+			"layers": "EMAG2 Image",
+			"parameters": {
+				"tiled": true
+			}
+		   },
+		   {
+			"name": "WMM-2015-15min",
+			"description": "World Magnetic Field 2015",
+			"dataCustodian": "public",
+			"type": "wms",
+			"url": "http://maps.leylines.ch:8080/geoserver/environment/wms",
+			"layers": "wmm_2015_15min",
+			"parameters": {
+				"tiled": true
+			},
+			"dataUrlType": "none"
+		   },
+		   {
+			"name": "WMM-2016-15min",
+			"description": "World Magnetic Field 2016",
+			"dataCustodian": "public",
+			"type": "wms",
+			"url": "http://maps.leylines.ch:8080/geoserver/environment/wms",
+			"layers": "wmm_2016_15min",
+			"parameters": {
+				"tiled": true
+			},
+			"dataUrlType": "none"
+		   },
+		   {
+			"name": "WMM-2017-15min",
+			"description": "World Magnetic Field 2017",
+			"dataCustodian": "public",
+			"type": "wms",
+			"url": "http://maps.leylines.ch:8080/geoserver/environment/wms",
+			"layers": "wmm_2017_15min",
+			"parameters": {
+				"tiled": true
+			},
+			"dataUrlType": "none"
+		   },
+		   {
+			"name": "WMM-2018-15min",
+			"description": "World Magnetic Field 2018",
+			"dataCustodian": "public",
+			"type": "wms",
+			"url": "http://maps.leylines.ch:8080/geoserver/environment/wms",
+			"layers": "wmm_2018_15min",
+			"parameters": {
+				"tiled": true
+			},
+			"dataUrlType": "none"
+		   },
+		   {
+			"name": "WMM-2019-15min",
+			"description": "World Magnetic Field 2019",
+			"dataCustodian": "public",
+			"type": "wms",
+			"url": "http://maps.leylines.ch:8080/geoserver/environment/wms",
+			"layers": "wmm_2019_15min",
+			"parameters": {
+				"tiled": true
+			},
+			"dataUrlType": "none"
+		   },
+		   {
+			"name": "WMM-2020-15min",
+			"description": "World Magnetic Field 2020",
+			"dataCustodian": "public",
+			"type": "wms",
+			"url": "http://maps.leylines.ch:8080/geoserver/environment/wms",
+			"layers": "wmm_2020_15min",
+			"parameters": {
+				"tiled": true
+			},
+			"dataUrlType": "none"
+		   }
+		]
+	   },
+	   {
+		"name": "Mines, Deposits and Occurrences",
+		"type": "group",
+		"items": [
+		   {
+			"name": "Mineral Resource Data System",
+			"description": "Mineral Resource Data System",
+			"dataCustodian": "http://mrdata.usgs.gov",
+			"type": "wms",
+			"url": "http://mrdata.usgs.gov/services/mrds?request=getcapabilities&service=WMS&version=1.1.1&",
+			"layers": "mrds",
+			"parameters": {
+				"tiled": true
+			},
+			"dataUrlType": "none"
+		   },
+		   {
+			"name": "Rare Earth",
+			"description": "Rare Earth",
+			"dataCustodian": "http://mrdata.usgs.gov",
+			"type": "wms",
+			"url": "http://mrdata.usgs.gov/services/ree?request=getcapabilities&service=WMS&version=1.1.1&",
+			"layers": "ree",
+			"parameters": {
+				"tiled": true
+			},
+			"dataUrlType": "none"
+		   }
+		]
+	   },
+	   {
+		"name": "Historical Natural Hazards",
+		"type": "group",
+		"items": [
+		   {
+			"name": "Tsunami Events",
+			"description": "Tsunami Events",
+			"dataCustodian": "http://maps.ngdc.noaa.gov/",
+			"type": "wms",
+			"url": "http://maps.ngdc.noaa.gov/arcgis/services/web_mercator/hazards/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+			"layers": "10",
+			"parameters": {
+				"tiled": true
+			},
+			"dataUrlType": "none"
+		   },
+		   {
+			"name": "Significant Earthquakes",
+			"description": "Significant Earthquakes",
+			"dataCustodian": "http://maps.ngdc.noaa.gov/",
+			"type": "wms",
+			"url": "http://maps.ngdc.noaa.gov/arcgis/services/web_mercator/hazards/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+			"layers": "6",
+			"parameters": {
+				"tiled": true
+			},
+			"dataUrlType": "none"
+		   },
+		   {
+			"name": "Significant Volcanic Eruptions",
+			"description": "Significant Volcanic Eruptions",
+			"dataCustodian": "http://maps.ngdc.noaa.gov/",
+			"type": "wms",
+			"url": "http://maps.ngdc.noaa.gov/arcgis/services/web_mercator/hazards/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+			"layers": "5",
+			"parameters": {
+				"tiled": true
+			},
+			"dataUrlType": "none"
+		   }
+		]
+	   },
+	   {
+		"name": "Earthquakes",
+		"type": "group",
+		"items": [
+		   {
+			"name": "Past 7 Days, M1.0+ Earthquakes",
+			"type": "group",
+			"items": [
+			      {
+				"name": "Colored by Age",
+				"description": "Earthquake Hazards Program",
+				"dataCustodian": "http://earthquake.usgs.gov",
+				"type": "kml",
+				"url": "http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/1.0_week_age_link.kml"
+			      },
+			      {
+				"name": "Colored by Depth",
+				"description": "Earthquake Hazards Program",
+				"dataCustodian": "http://earthquake.usgs.gov",
+				"type": "kml",
+				"url": "http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/1.0_week_depth_link.kml"
+			      },
+			      {
+				"name": "Colored by Age, Animated",
+				"description": "Earthquake Hazards Program",
+				"dataCustodian": "http://earthquake.usgs.gov",
+				"type": "kml",
+				"url": "http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/1.0_week_age_animated_link.kml"
+			      },
+			      {
+				"name": "Colored by Depth, Animated",
+				"description": "Earthquake Hazards Program",
+				"dataCustodian": "http://earthquake.usgs.gov",
+				"type": "kml",
+				"url": "http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/1.0_week_depth_animated_link.kml"
+			      }
+			]
+		   },
+		   {
+			"name": "Past 30 Days, M2.5+ Earthquakes",
+			"type": "group",
+			"items": [
+			      {
+				"name": "Colored by Age",
+				"description": "Earthquake Hazards Program",
+				"dataCustodian": "http://earthquake.usgs.gov",
+				"type": "kml",
+				"url": "http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week_age_link.kml"
+			      },
+			      {
+				"name": "Colored by Depth",
+				"description": "Earthquake Hazards Program",
+				"dataCustodian": "http://earthquake.usgs.gov",
+				"type": "kml",
+				"url": "http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week_depth_link.kml"
+			      },
+			      {
+				"name": "Colored by Age, Animated",
+				"description": "Earthquake Hazards Program",
+				"dataCustodian": "http://earthquake.usgs.gov",
+				"type": "kml",
+				"url": "http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week_age_animated_link.kml"
+			      },
+			      {
+				"name": "Colored by Depth, Animated",
+				"description": "Earthquake Hazards Program",
+				"dataCustodian": "http://earthquake.usgs.gov",
+				"type": "kml",
+				"url": "http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week_depth_animated_link.kml"
+			      }
+			]
+		   }
+		]
+	   },
+	   {
+		"name": "Geology",
+		"type": "group",
+		"items": [
+		   {
+			"name": "World CGMW 1:50M",
+			"type": "group",
+			"items": [
+			   {
+				"name": "Geological Units Onshore",
+				"dataCustodian": "http://mapsref.brgm.fr/",
+				"type": "wms",
+				"url": "http://mapsref.brgm.fr/wxs/1GG/CGMW_Bedrock_and_Structural_Geology?",
+				"layers": "World_CGMW_50M_GeologicalUnitsOnshore",
+				"parameters": {
+					"tiled": true
+				}
+			   },
+			   {
+				"name": "Geological Units Offshore",
+				"dataCustodian": "http://mapsref.brgm.fr/",
+				"type": "wms",
+				"url": "http://mapsref.brgm.fr/wxs/1GG/CGMW_Bedrock_and_Structural_Geology?",
+				"layers": "World_CGMW_50M_GeologicalUnitsOffshore",
+				"parameters": {
+					"tiled": true
+				}
+		 	   },
+			   {
+				"name": "Oceanic Plateau",
+				"dataCustodian": "http://mapsref.brgm.fr/",
+				"type": "wms",
+				"url": "http://mapsref.brgm.fr/wxs/1GG/CGMW_Bedrock_and_Structural_Geology?",
+				"layers": "World_CGMW_50M_OceanicPlateau",
+				"parameters": {
+					"tiled": true
+				}
+		 	   },
+			   {
+				"name": "Over Features",
+				"dataCustodian": "http://mapsref.brgm.fr/",
+				"type": "wms",
+				"url": "http://mapsref.brgm.fr/wxs/1GG/CGMW_Bedrock_and_Structural_Geology?",
+				"layers": "World_CGMW_50M_OverFeatures",
+				"parameters": {
+					"tiled": true
+				}
+		 	   },
+			   {
+				"name": "Structural",
+				"dataCustodian": "http://mapsref.brgm.fr/",
+				"type": "wms",
+				"url": "http://mapsref.brgm.fr/wxs/1GG/CGMW_Bedrock_and_Structural_Geology?",
+				"layers": "World_CGMW_50M_Structural",
+				"parameters": {
+					"tiled": true
+				}
+		 	   }
+			]
+		   },
+		   {
+			"name": "Eurasia CGMW 1:12,5M",
+			"type": "group",
+			"items": [
+			   {
+				"name": "Geological Units",
+				"dataCustodian": "http://mapsref.brgm.fr/",
+				"type": "wms",
+				"url": "http://mapsref.brgm.fr/wxs/1GG/CGMW_Bedrock_and_Structural_Geology?",
+				"layers": "Eurasia_CGMW_12500K_GeologicalUnits",
+				"parameters": {
+					"tiled": true
+				}
+			   },
+			   {
+				"name": "Over Features",
+				"dataCustodian": "http://mapsref.brgm.fr/",
+				"type": "wms",
+				"url": "http://mapsref.brgm.fr/wxs/1GG/CGMW_Bedrock_and_Structural_Geology?",
+				"layers": "Eurasia_CGMW_12500K_OverFeatures",
+				"parameters": {
+					"tiled": true
+				}
+			   },
+			   {
+				"name": "Structural",
+				"dataCustodian": "http://mapsref.brgm.fr/",
+				"type": "wms",
+				"url": "http://mapsref.brgm.fr/wxs/1GG/CGMW_Bedrock_and_Structural_Geology?",
+				"layers": "Eurasia_CGMW_12500K_Structural",
+				"parameters": {
+					"tiled": true
+				}
+		 	   }
+			]
+		   }
+		]
+	   },
+	   {
+		"name": "Volcanos",
+		"type": "group",
+		"items": [
+		   {
+			"name": "Volcano Database",
+			"description": "Volcano Database",
+			"dataCustodian": "https://www.ngdc.noaa.gov",
+			"type": "czml",
+			"url": "http://maps.leylines.ch/api/points/environment/volcanos/volcano.png"
+		   },
+		   {
+			"name": "Volcanic Activity",
+			"description": "USGS Weekly Volcanic Activity Report",
+			"dataCustodian": "http://volcano.si.edu",
+			"type": "kmz",
+			"url": "http://www.volcano.si.edu/news/WeeklyVolcanoGE-Reports.kmz"
+		   }
+		]
+	   },
+	   {
+		"name": "Misc",
+		"type": "group",
+		"items": [
+		   {
+			"name": "Age of the Oceanic Lithosphere",
+			"dataCustodian": "https://maps.ngdc.noaa.gov/",
+			"type": "wms",
+			"url": "https://maps.ngdc.noaa.gov/arcgis/services/web_mercator/seafloor_age/MapServer/WMSServer",
+			"layers": "Age of Oceanic Lithosphere - millions of years",
+			"parameters": {
+				"tiled": true
+			},
+			"dataUrlType": "http://www.ngdc.noaa.gov/mgg/ocean_age/ocean_age_2008.html"
+		   },
+		   {
+			"name": "Plate Boundaries - UTIG",
+			"description": "Plate Boundaries - UTIG",
+			"dataCustodian": "https://maps.ngdc.noaa.gov/",
+			"type": "wms",
+			"url": "https://maps.ngdc.noaa.gov/arcgis/services/web_mercator/seafloor_age/MapServer/WMSServer",
+			"layers": "Plate Boundaries - UTIG",
+			"parameters": {
+				"tiled": true
+			},
+			"dataUrlType": "http://www.ngdc.noaa.gov/mgg/ocean_age/ocean_age_2008.html"
+		   },
+		   {
+			"name": "World Cable Map (Greg's Cable Map)",
+			"description": "Greg's Cable Map is an attempt to consolidate all the available information about the undersea communications infrastructure.",
+			"dataCustodian": "http://www.cablemap.info/",
+			"type": "kml",
+			"url": "http://www.cablemap.info/cablemap.info.aspx",
+			"dataUrlType": "none"
+		   },
+		   {
+			"name": "Rivers",
+			"description": "Rivers",
+			"dataCustodian": "public",
+			"type": "wms",
+			"url": "http://maps.leylines.ch:8080/geoserver/environment/wms",
+			"layers": "rivers",
+			"parameters": {
+				"tiled": true
+			},
+			"dataUrlType": "none"
+		   }
+		]
+	   }
+	]
+     }
+  ]
+}

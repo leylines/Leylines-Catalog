@@ -1,0 +1,66 @@
+{
+  "catalog": [
+     {
+	"name": "Anomalies",
+	"type": "group",
+	"items": [
+	   {
+		"name": "Alaska Triangle",
+		"type": "czml",
+		"url": "http://maps.leylines.ch/api/areas/anomalies/areas/Alaska"
+	   },
+	   {
+		"name": "Antarctica",
+		"type": "czml",
+		"url": "http://maps.leylines.ch/api/areas/environment/countries/Antarctica"
+	   },
+	   {
+		"name": "Bennington Triangle",
+		"type": "czml",
+		"url": "http://maps.leylines.ch/api/areas/anomalies/areas/Bennington"
+	   },
+	   {
+		"name": "Bermuda Triangle",
+		"type": "czml",
+		"url": "http://maps.leylines.ch/api/areas/anomalies/areas/Bermuda"
+	   },
+	   {
+		"name": "Dragons Triangle",
+		"type": "czml",
+		"url": "http://maps.leylines.ch/api/areas/anomalies/areas/Dragons"
+	   },
+	   {
+		"name": "Michigan Triangle",
+		"type": "czml",
+		"url": "http://maps.leylines.ch/api/areas/anomalies/areas/Michigan"
+	   },
+	   {
+		"name": "Nevada Triangle",
+		"type": "czml",
+		"url": "http://maps.leylines.ch/api/areas/anomalies/areas/Nevada"
+	   },
+	   {
+		"name": "M-Triangle",
+		"type": "czml",
+		"url": "http://maps.leylines.ch/api/areas/anomalies/areas/Perm"
+	   },
+	   {
+		"name": "South Atlantic Anomaly",
+		"url": "http://maps.leylines.ch:8080/geoserver/anomalies/wms",
+		"description": "South Atlantic Anomaly",
+		"type": "wms",
+		"layers": "sama",
+		"parameters": {
+			"tiled": true
+		},
+		"dataUrlType": "none"
+	   },
+	   {
+		"name": "Wharton Basin",
+		"type": "czml",
+		"url": "http://maps.leylines.ch/api/areas/anomalies/areas/Wharton"
+	   }
+	]
+     }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "catalog": [
+     {
+	"name": "Books",
+	"type": "group",
+	"items": [
+	   {
+		"name": "Tore zum Himmel",
+		"type": "czml",
+		"url": "http://maps.leylines.ch/api/points/books/tore_zum_himmel/white"
+	   }
+	]
+     }
+  ]
+}

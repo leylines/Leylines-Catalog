@@ -1,0 +1,98 @@
+{
+  "catalog": [
+     {
+	"name": "POI",
+	"description": "Point of interest relative to Ley Lines and alignments in different categories.",
+	"type": "group",
+	"items": [
+	   {
+		"name": "Air Force Space Command",
+		"description": "US Space Command was created in 1985, but America's military actually began operating in space much earlier. With the Soviet Union's unexpected 1957 launch of the world's first man-made satellite, Sputnik I, President Eisenhower accelerated the nation's slowly emerging civil and military space efforts.",
+		"type": "czml",
+		"url": "http://maps.leylines.ch/api/points/poi/afspc/afspc.png"
+	   },
+	   {
+		"name": "Haarp",
+		"description": "The High Frequency Active Auroral Research Program (HAARP) was an ionospheric research program jointly funded by the U.S. Air Force, the U.S. Navy, the University of Alaska, and the Defense Advanced Research Projects Agency (DARPA), designed and built by BAE Advanced Technologies (BAEAT).",
+		"type": "czml",
+		"url": "http://maps.leylines.ch/api/points/poi/haarp/haarp.png"
+	   },
+	   {
+		"name": "Mountains",
+		"description": "Holy mountains and mountains that are places of strength and peace.",
+		"type": "czml",
+		"url": "http://maps.leylines.ch/api/sites/leylines/view_poi/Mountain/mountain.png"
+	   },
+	   {
+		"name": "Volcanos",
+		"description": "Active and dormant volcanos of cultural significance",
+		"type": "czml",
+		"url": "http://maps.leylines.ch/api/sites/leylines/view_poi/Volcano/volcano.png"
+	   },
+	   {
+		"name": "Local Alignments",
+		"description": "Local Alignments such as stone circles and henges.",
+		"type": "czml",
+		"url": "http://maps.leylines.ch/api/sites/leylines/view_poi/Alignment/alignment.png"
+	   },
+	   {
+		"name": "Stones",
+		"description": "Natural stones and megaliths that are places of strength and peace.",
+		"type": "czml",
+		"url": "http://maps.leylines.ch/api/sites/leylines/view_poi/Stone/stone.png"
+	   },
+	   {
+		"name": "Stargates",
+		"description": "Ancient door-like structures that might be stargates, portals and wormholes",
+		"type": "czml",
+		"url": "http://maps.leylines.ch/api/sites/leylines/view_poi/Stargate/stargate.png"
+	   },
+	   {
+		"name": "Lakes",
+		"type": "czml",
+		"url": "http://maps.leylines.ch/api/sites/leylines/view_poi/Lake/lake.png"
+	   },
+	   {
+		"name": "Sites",
+		"type": "czml",
+		"url": "http://maps.leylines.ch/api/sites/leylines/view_poi/unknown/button_red.png"
+	   },
+	   {
+		"name": "Underwater Ruins",
+		"type": "czml",
+		"url": "http://maps.leylines.ch/api/sites/leylines/view_poi/Underwater Ruins/lake.png"
+	   },
+	   {
+		"name": "Ufo Hotspots",
+		"type": "czml",
+		"url": "http://maps.leylines.ch/api/sites/leylines/view_poi/Ufo Hotspot/alien.png"
+	   },
+	   {
+		"name": "Tibetan Monasteries",
+		"type": "czml",
+		"url": "http://maps.leylines.ch/api/points/poi/monasteries_tibetian/monastery.png"
+	   },
+	   {
+		"name": "Churches / Monasteries",
+		"type": "czml",
+		"url": "http://maps.leylines.ch/api/sites/leylines/view_poi/Church/church.png"
+	   },
+	   {
+		"name": "Caves / Underground Cities",
+		"type": "czml",
+		"url": "http://maps.leylines.ch/api/sites/leylines/view_poi/Cave/cave.png"
+	   },
+	   {
+		"name": "Maya Sites",
+		"type": "czml",
+		"url": "http://maps.leylines.ch/api/points/poi/sites_maya/maya.png"
+	   },
+	   {
+		"name": "Pyramids",
+		"type": "czml",
+		"url": "http://maps.leylines.ch/api/sites/leylines/view_poi/Pyramid/pyramid.png"
+	   }
+	]
+     }
+  ]
+}

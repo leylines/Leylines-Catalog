@@ -1,0 +1,46 @@
+{
+  "catalog": [
+     {
+	"name": "Ancient Maps",
+	"description": "Ancient Maps, geo-referenced as good as possible.",
+	"type": "group",
+	"items": [
+	   {
+		"url": "http://maps.leylines.ch:8080/geoserver/ancientMaps/wms",
+		"name": "Piri-Reis",
+		"dataCustodian": "[www.leylines.ch](http://www.leylines.ch/index.html#contact)",
+		"type": "wms",
+		"layers": "Piri-Reis-transformiert",
+		"parameters": {
+			"tiled": true
+		},
+		"dataUrlType": "none"
+	   },
+	   {
+		"url": "http://maps.leylines.ch:8080/geoserver/ancientMaps/wms",
+		"name": "Weltenstein Klaus Dona",
+		"description": "Weltenstein Klaus Dona geo-referenced as good as possible",
+		"dataCustodian": "Klaus Dona",
+		"type": "wms",
+		"layers": "weltenstein",
+		"parameters": {
+			"tiled": true
+		},
+		"dataUrlType": "none"
+	   },
+	   {
+		"name": "Silk Route",
+		"description": "Silk Route",
+		"dataCustodian": "[www.leylines.ch](http://www.leylines.ch/index.html#contact)",
+		"type": "wms",
+		"url": "http://maps.leylines.ch:8080/geoserver/ancientMaps/wms",
+		"layers": "trade_routes",
+		"parameters": {
+			"tiled": true
+		},
+		"dataUrlType": "none"
+	   }
+	]
+     }
+  ]
+}
