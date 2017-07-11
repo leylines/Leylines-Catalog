@@ -8,6 +8,26 @@
 		"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
 		"type": "group",
 		"items": [
+           {
+            "name": "All Sites",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+            "url": "https://maps.leylines.ch:8443/geoserver/megalithic/wms"
+            "layers": "sites-reduced",
+            "description": "All Sites",
+            "parameters": {
+                "tiled": true
+            }
+           },
+           {
+            "name": "Heatmap",
+			"dataCustodian": "[The Megalithic Portal](http://www.megalithic.co.uk/)",
+            "url": "https://maps.leylines.ch:8443/geoserver/megalithic/wms"
+            "layers": "sites-heatmap",
+            "description": "Heatmap of all sites",
+            "parameters": {
+                "tiled": true
+            }
+           },
 		   {
 			"name": "Ancient Cross",
 			"type": "czml",
