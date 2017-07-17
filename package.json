@@ -1,6 +1,6 @@
 {
   "name": "leylines-catalog",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Catalog files for Leylines.",
   "main": "index.js",
   "scripts": {
