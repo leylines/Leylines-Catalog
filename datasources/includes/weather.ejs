@@ -3,6 +3,36 @@
 	"description": "Current Weather from openweathermap.org",
 	"type": "group",
 	"items": [
+           {
+            "name": "Weather Satellite Imagery",
+            "type": "group",
+            "items": [
+               {
+                "name": "Global Shortwave Infrared Mosaic",
+                "description": "Global Shortwave Infrared Mosaic",
+                "dataCustodian": "[nowcoast.noaa.gov](https://nowcoast.noaa.gov/arcgis/rest/services/nowcoast)",
+                "type": "esri-mapServer",
+                "layers": "27",
+                "url": "https://nowcoast.noaa.gov/arcgis/rest/services/nowcoast/sat_meteo_imagery_time/MapServer"
+               },
+               {
+                "name": "Global Longwave Infrared Mosaic",
+                "description": "Global Longwave Infrared Mosaic",
+                "dataCustodian": "[nowcoast.noaa.gov](https://nowcoast.noaa.gov/arcgis/rest/services/nowcoast)",
+                "type": "esri-mapServer",
+                "layers": "23",
+                "url": "https://nowcoast.noaa.gov/arcgis/rest/services/nowcoast/sat_meteo_imagery_time/MapServer"
+               },
+               {
+                "name": "Global Visible Imagery Mosaic",
+                "description": "Global Visible Imagery Mosaic",
+                "dataCustodian": "[nowcoast.noaa.gov](https://nowcoast.noaa.gov/arcgis/rest/services/nowcoast)",
+                "type": "esri-mapServer",
+                "layers": "19",
+                "url": "https://nowcoast.noaa.gov/arcgis/rest/services/nowcoast/sat_meteo_imagery_time/MapServer"
+               }
+            ]
+           },
 	   {
 		"name": "Air temperature at a height of 2 meters",
 		"type": "open-street-map",
