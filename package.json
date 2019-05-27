@@ -6,7 +6,7 @@
   "scripts": {
     "test": "gulp validate",
     "build": "gulp build",
-    "postinstall": "gulp build"
+    "gulp": "gulp"
   },
   "repository": {
     "type": "git",
