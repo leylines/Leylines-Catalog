@@ -13,7 +13,7 @@ var watching = false; // if we're in watch mode, we try to never quit.
 var watchOptions = { poll:1000, interval: 1000 }; // time between watch intervals. OSX hates short intervals. Different versions of Gulp use different options.
 var sourceDir = 'datasources';
 var workDir = 'work';
-var targetDir = 'build';
+var targetDir = 'init';
 // Create the build directory, because browserify flips out if the directory that might
 // contain an existing source map doesn't exist.
 
